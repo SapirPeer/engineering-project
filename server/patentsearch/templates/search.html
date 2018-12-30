@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+<!-- <link rel="stylesheet" href="C:\Users\sapir\Desktop\sapir\Engineering project\demo\engProj.css"> -->
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<!-- <script type="text/javascript" src="C:\Users\sapir\Desktop\sapir\Engineering project\searchEngine.js"></script> -->
+
+<style>
+    .searchBox{
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #fcfcfc;
+        border: solid 1px #E9E9E8;
+        padding: 8px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 14px;
+        width:350px;
+
+    }
+    .buttonClass{
+        color: #FFFFFF;
+        text-decoration: underline;
+        /*margin-right: 9px;*/
+        cursor: pointer;
+        text-transform: none;
+        background-color: #199619;
+        border: none;
+        box-shadow: none;
+        border-radius:5px;
+        width: 60px;
+        padding: 9px;
+
+    }
+    .title_pre-search{
+        font-family: 'Lato', sans-serif;
+        color: #ff4500cc;
+        letter-spacing: -2px;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 60px;
+    /*    margin-bottom: 20px;
+    */  display: inline-block;
+    }
+    .search-box_post-search{
+        margin-bottom=34px;
+        width = 535px;
+}
+    .pre-search{
+        display: inline-block;
+        position: fixed;
+        top: 0;
+        bottom: 28%;
+        left: 37%;
+        right: 30%;
+        width: 100%;
+        height: 100px;
+        margin: auto;
+
+    }
+
+    .post-search{
+	margin-top= -38px;
+}
+    .small{
+        margin-top:-416px;
+    }
+</style>
+
+<script>
+    /*Get search string from the website and parse it*/
+    function getSearchString() {
+        var searchString = document.getElementById('searchInput').value;
+        //parse the search strign
+    }
+            
+    function changeDisplay(){
+	console.log("jjj");
+       // document.getElementById('searchEngine').classList.remove= "pre-search";
+	document.getElementById('searchEngine').classList.value= "post-search";
+        document.getElementById('query').classList.add = "search-box_post-search";
+	document.getElementById('results-container').style.display = 'block';
+}
+    
+</script>
+
+<head>
+<div class="engProj pre-search" id="searchEngine"> 
+<h2 class="title_pre-search"> Find Me A Patenet</h2> 
+<br>
+<body>
+
+    <div class="searchDirective">
+        <form action="" method="get">
+            <input class="searchBox" id="query" name="query" type="text" placeholder="Search...">
+            <input type="submit" class="buttonClass" value="Search" onclick="changeDisplay()">
+        </form>
+
+        {% if result %}
+        <div class="results-container" id="results-container">
+            <p class="result-counter"> About {{result|length}} results </p>
+            {% for doc in result %}
+
+                <div>
+                    <h3>[{{ doc.id }}] {{ doc.title }}</h3>
+                    [{{ doc.date }}] {{ doc.author }} -- {{ doc.organization }}<br>
+                    {{ doc.icn }} -- {{ doc.acn }}<br>
+                    <font color="blue">Abstract:</font><br>
+                    {{ doc.abstract }}<br>
+                    <font color="blue">Description:</font><br>
+                    {{ doc.description }}<br>
+                </div>
+
+            {% endfor %}
+        </div>
+        {% endif %}
+
+    </div>
+
+</body>
+</div>
+</html>

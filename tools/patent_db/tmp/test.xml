@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08931111-20150106.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20141220" date-publ="20150106">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08931111</doc-number>
+<kind>B2</kind>
+<date>20150106</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>12171317</doc-number>
+<date>20080711</date>
+</document-id>
+</application-reference>
+<us-application-series-code>12</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>JP</country>
+<doc-number>2007-185715</doc-number>
+<date>20070717</date>
+</priority-claim>
+<priority-claim sequence="02" kind="national">
+<country>JP</country>
+<doc-number>2008-179525</doc-number>
+<date>20080709</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<us-term-extension>1820</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>G</section>
+<class>06</class>
+<subclass>F</subclass>
+<main-group>7</main-group>
+<subgroup>04</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>G</section>
+<class>06</class>
+<subclass>F</subclass>
+<main-group>17</main-group>
+<subgroup>30</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20110101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>04</class>
+<subclass>N</subclass>
+<main-group>7</main-group>
+<subgroup>16</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>04</class>
+<subclass>N</subclass>
+<main-group>1</main-group>
+<subgroup>44</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>04</class>
+<subclass>N</subclass>
+<main-group>1</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>04</class>
+<subclass>N</subclass>
+<main-group>1</main-group>
+<subgroup>44</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>04</class>
+<subclass>N</subclass>
+<main-group>1</main-group>
+<subgroup>00838</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>04</class>
+<subclass>N</subclass>
+<main-group>1</main-group>
+<subgroup>00846</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>04</class>
+<subclass>N</subclass>
+<main-group>1</main-group>
+<subgroup>00864</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>726 32</main-classification>
+<further-classification>726 33</further-classification>
+</classification-national>
+<invention-title id="d2e90">Optical writing apparatus, image forming apparatus and computer readable information recording medium</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>5647010</doc-number>
+<kind>A</kind>
+<name>Okubo et al.</name>
+<date>19970700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2001/0035889</doc-number>
+<kind>A1</kind>
+<name>Mikami</name>
+<date>20011100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>347 19</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>2004/0150859</doc-number>
+<kind>A1</kind>
+<name>Hayashi</name>
+<date>20040800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>358  328</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>JP</country>
+<doc-number>07-273984</doc-number>
+<date>19951000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>JP</country>
+<doc-number>3078433</doc-number>
+<date>20000800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>JP</country>
+<doc-number>2004-237678</doc-number>
+<date>20040800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>21</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>726 26</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>726 31- 33</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>358  328</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>358  114</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>283902</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>399366</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>380 54- 55</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>34</number-of-drawing-sheets>
+<number-of-figures>34</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20090025093</doc-number>
+<kind>A1</kind>
+<date>20090122</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Kimura</last-name>
+<first-name>Tomonori</first-name>
+<address>
+<city>Kanagawa</city>
+<country>JP</country>
+</address>
+</addressbook>
+<residence>
+<country>JP</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Kimura</last-name>
+<first-name>Tomonori</first-name>
+<address>
+<city>Kanagawa</city>
+<country>JP</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>IPUSA, PLLC</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Ricoh Company, Ltd.</orgname>
+<role>03</role>
+<address>
+<city>Tokyo</city>
+<country>JP</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Zand</last-name>
+<first-name>Kambiz</first-name>
+<department>2436</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Nguyen</last-name>
+<first-name>Trong</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">An optical writing apparatus has a part configured to superpose an unauthorized copy protection pattern on image data; a control part configured to recognize the unauthorized copy protection pattern, correct image data of the unauthorized copy protection pattern in pixel unit, and control a size of an isolated dot included in the unauthorized copy protection pattern; and a writing part configured to write a corresponding image on a photosensitive body based on the thus-corrected image data.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="234.78mm" wi="239.95mm" file="US08931111-20150106-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="242.82mm" wi="175.68mm" orientation="landscape" file="US08931111-20150106-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="93.22mm" wi="117.01mm" file="US08931111-20150106-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="230.38mm" wi="176.28mm" file="US08931111-20150106-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="236.90mm" wi="178.14mm" orientation="landscape" file="US08931111-20150106-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="242.91mm" wi="181.86mm" orientation="landscape" file="US08931111-20150106-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="65.19mm" wi="136.99mm" file="US08931111-20150106-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="229.53mm" wi="154.01mm" orientation="landscape" file="US08931111-20150106-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="244.26mm" wi="175.34mm" orientation="landscape" file="US08931111-20150106-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="242.40mm" wi="177.21mm" orientation="landscape" file="US08931111-20150106-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="241.05mm" wi="185.59mm" orientation="landscape" file="US08931111-20150106-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="125.31mm" wi="171.79mm" file="US08931111-20150106-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="243.42mm" wi="180.42mm" orientation="landscape" file="US08931111-20150106-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00013" num="00013">
+<img id="EMI-D00013" he="247.48mm" wi="151.81mm" orientation="landscape" file="US08931111-20150106-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00014" num="00014">
+<img id="EMI-D00014" he="235.97mm" wi="173.06mm" file="US08931111-20150106-D00014.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00015" num="00015">
+<img id="EMI-D00015" he="195.24mm" wi="173.65mm" file="US08931111-20150106-D00015.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00016" num="00016">
+<img id="EMI-D00016" he="199.98mm" wi="173.91mm" file="US08931111-20150106-D00016.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00017" num="00017">
+<img id="EMI-D00017" he="207.26mm" wi="174.41mm" file="US08931111-20150106-D00017.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00018" num="00018">
+<img id="EMI-D00018" he="200.74mm" wi="178.14mm" file="US08931111-20150106-D00018.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00019" num="00019">
+<img id="EMI-D00019" he="250.27mm" wi="174.84mm" orientation="landscape" file="US08931111-20150106-D00019.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00020" num="00020">
+<img id="EMI-D00020" he="203.96mm" wi="163.66mm" file="US08931111-20150106-D00020.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00021" num="00021">
+<img id="EMI-D00021" he="187.37mm" wi="162.90mm" file="US08931111-20150106-D00021.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00022" num="00022">
+<img id="EMI-D00022" he="240.62mm" wi="176.28mm" orientation="landscape" file="US08931111-20150106-D00022.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00023" num="00023">
+<img id="EMI-D00023" he="233.68mm" wi="185.00mm" orientation="landscape" file="US08931111-20150106-D00023.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00024" num="00024">
+<img id="EMI-D00024" he="243.33mm" wi="164.25mm" orientation="landscape" file="US08931111-20150106-D00024.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00025" num="00025">
+<img id="EMI-D00025" he="212.85mm" wi="171.62mm" file="US08931111-20150106-D00025.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00026" num="00026">
+<img id="EMI-D00026" he="206.84mm" wi="181.36mm" file="US08931111-20150106-D00026.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00027" num="00027">
+<img id="EMI-D00027" he="202.01mm" wi="175.77mm" file="US08931111-20150106-D00027.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00028" num="00028">
+<img id="EMI-D00028" he="207.26mm" wi="173.48mm" file="US08931111-20150106-D00028.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00029" num="00029">
+<img id="EMI-D00029" he="207.35mm" wi="187.37mm" file="US08931111-20150106-D00029.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00030" num="00030">
+<img id="EMI-D00030" he="217.09mm" wi="178.05mm" orientation="landscape" file="US08931111-20150106-D00030.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00031" num="00031">
+<img id="EMI-D00031" he="247.06mm" wi="168.91mm" orientation="landscape" file="US08931111-20150106-D00031.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00032" num="00032">
+<img id="EMI-D00032" he="235.97mm" wi="182.29mm" file="US08931111-20150106-D00032.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00033" num="00033">
+<img id="EMI-D00033" he="167.81mm" wi="176.19mm" file="US08931111-20150106-D00033.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00034" num="00034">
+<img id="EMI-D00034" he="171.20mm" wi="183.22mm" file="US08931111-20150106-D00034.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">1. Field of the Invention</p>
+<p id="p-0003" num="0002">The present invention relates to an optical writing apparatus having a function of superposing an unauthorized copy protection pattern (such a function being referred to as an unauthorized copy protection function, hereinafter), an image forming apparatus such as a copier or a digital multi-function peripheral (MFP) having a copying function, and a computer readable information recording medium storing a program for controlling operation of the optical writing apparatus.</p>
+<p id="p-0004" num="0003">2. Description of the Related Art</p>
+<p id="p-0005" num="0004">For example, in a copier generally used, the unauthorized copy protection function is mounted. The unauthorized copy protection function is a function for which a first image processing apparatus prints an image after superposing an unauthorized copy protection pattern on given image data. A second image processing apparatus has a function of preventing itself from carrying out unauthorized copying operation. When the second image processing apparatus reads the image in which the unauthorized copy protection pattern has been thus superposed, the second image processing apparatus recognizes the unauthorized copy protection pattern. As a result, the second image protection apparatus treats the image as an unauthorized copy protection image, and thus the second image processing apparatus is controlled to prevent itself from printing the unauthorized copy protection image. Thus, copy protection is achieved. In order that the unauthorized copy protection function actually work well, the second image processing apparatus should positively recognize from the read image the unauthorized copy protection pattern superposed by the first image processing apparatus.</p>
+<p id="p-0006" num="0005">Japanese Laid-Open Patent Application 2004-237687 discloses a method and apparatus. In the method and apparatus, a thermally reversible printing medium is used which has a thermally reversible recording layer in which visible information can be displayed and erased, because thermal energy reversibly changes a state of the thermally reversible recording layer between a coloring state and an erasing state. In the thermally reversible printing medium, information is embedded such as whether copying is allowed, a copyright, a confidential term and characteristics of the printing medium. The embedded information is read and analyzed.</p>
+<p id="p-0007" num="0006">Japanese Patent No. 3078433, Japanese Laid-Open Patent Application 7-273984 and U.S. Pat. No. 5,647,010 disclose image processing apparatuses having functions of unauthorized copy protection.</p>
+<p id="p-0008" num="0007">Currently, when a so-called A0 wide machine is used as an image forming apparatus or an image processing apparatus to print an image, a dot shape of one dot may be such that a size is larger and it has a long shape in a vertical direction as a whole (see <figref idref="DRAWINGS">FIG. 29(</figref><i>c</i>) and <figref idref="DRAWINGS">FIG. 30(</figref><i>c</i>)), in comparison to a case where a common so-called LD writing machine is used as an image forming apparatus or an image processing apparatus to print an image. This is because an LED print head (abbreviated as LPH hereinafter) having a plurality of LED devices is used in the A0 wide machine, and also, because of other process conditions. As a result, an unauthorized copy protection pattern may not satisfy requirements prescribed in a required standard for unauthorized copy protection patterns. If the requirements of the standard are not met, the unauthorized copy protection pattern superposed by the first image processing apparatus may not be recognized by the second image processing apparatus. If the second image processing apparatus cannot recognize the unauthorized copy protection pattern, the second image processing apparatus problematically cannot be controlled to prevent itself from printing the unauthorized copy protection image. Thus, the second image processing apparatus can be problematically used to copy even such an unauthorized copy protection image. As a result, unauthorized copy protection cannot be achieved. The above-mentioned process conditions mean developing roller diameters, developing systems, toner ingredient diameters, and so forth. These conditions are different between the above-mentioned A0 wide machine which is provided for A0-size paper and another machine which is provided for A3-size paper or for smaller paper.</p>
+<heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0009" num="0008">In order to solve the problem, after an unauthorized copy protection pattern is superposed on given image data, image data of the unauthorized copy protection pattern is corrected in pixel units, so that a size of an isolated dot included in the unauthorized copy protection pattern is controlled. After the image data of the unauthorized copy protection pattern is thus controlled, an image represented by the given image data and the image data of the unauthorized copy protection pattern is written on a photosensitive body.</p>
+<p id="p-0010" num="0009">Thus, from image data (referred to as an entirety of image data hereinafter) in which image data of an unauthorized copy protection pattern is superposed on given image data, the unauthorized copy protection pattern is recognized. Then, the thus-recognized unauthorized copy protection pattern is corrected in pixel unit before the entirety of image data is actually printed. As a result, it is possible to control with high accuracy a size of an isolated dot included in the unauthorized copy protection pattern which is included in an image consequently printed. As a result, a first image processing apparatus can print an image including an unauthorized copy protection pattern, which has been thus controlled with high accuracy in a size of the isolated dot included therein. Then, when this image of printed matter is read by a second image processing apparatus having a function of preventing itself from printing an unauthorized copy protection image, the second image processing apparatus can positively recognize the unauthorized copy protection pattern included in the read image. Thus, unauthorized copy protection can be achieved, and the unauthorized copy protection function of the first image processing apparatus can work well.</p>
+<p id="p-0011" num="0010">Other objects, features and advantages of the present invention will become more apparent from the following detailed description when read in conjunction with the accompanying drawings.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 1A</figref> shows a block diagram of a general configuration of an image forming apparatus of an embodiment <b>1</b>;</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 1B</figref> shows a block configuration example of a system control unit shown in <figref idref="DRAWINGS">FIG. 1A</figref>;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 2</figref> shows a mechanical configuration of the image forming apparatus in the embodiment 1;</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 3</figref> shows a block diagram of a flow of image data in a writing part shown in <figref idref="DRAWINGS">FIG. 1A</figref>;</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 4</figref> shows a block diagram of a configuration of the writing part;</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 5</figref> shows a relationship between a magnification and a matrix size;</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 6</figref> shows a control configuration of read/write operation of a line memory;</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIGS. 7A and 7B</figref> show timing charts in detail of timing of memory read/write in <figref idref="DRAWINGS">FIG. 6</figref>;</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 8</figref> shows a block diagram in detail of an unauthorized copy protection pattern correcting part;</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 9</figref> shows contents of settings of an image matrix generating part register (hcopyset);</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 10</figref> shows a timing chart of timing for when an image matrix is generated in the unauthorized copy protection pattern correcting part;</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 11</figref> shows an example of dividing an image in a main scan direction in the embodiment 1;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 12</figref> shows examples of pattern matching and a matching pattern for pattern recognition carried out in a pattern recognizing and output image generating part;</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIGS. 13</figref>, <b>14</b>, <b>15</b> and <b>16</b> show examples of output registers prepared for respective divided image areas for when an image matrix is matched by a matching pattern;</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 17</figref> illustrates unauthorized copy protection pattern correcting operation;</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 18</figref> shows correction of an unauthorized copy protection pattern in a binary mode;</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 19</figref> shows correction of an unauthorized copy protection pattern in a multi-level mode;</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 20</figref> shows a block diagram in detail of an unauthorized copy protection pattern correcting part in an embodiment 2;</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 21</figref> shows an example in which, in the embodiment 2, a writing area is divided to have LPH<b>1</b> divided areas, LPH<b>2</b> divided areas and LPH<b>3</b> divided areas, a left joint portion area and a right joint portion area;</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 22</figref> shows details of the joint portions;</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 23</figref> shows a pattern for pattern matching in the joint portions;</p>
+<p id="p-0033" num="0032"><figref idref="DRAWINGS">FIGS. 24A</figref>, <b>24</b>B, <b>25</b>A and <b>25</b>B show examples of output registers prepared for the joint portions;</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 26</figref> conceptually shows an example where a dot diameter varies depending on a position on a photosensitive body;</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 27</figref> shows a concept of a state in which correction is carried out for each divided image area;</p>
+<p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 28</figref> shows a flowchart illustrating a flow of unauthorized copy protection pattern correcting operation; and</p>
+<p id="p-0037" num="0036"><figref idref="DRAWINGS">FIGS. 29 and 30</figref> illustrate specific examples of unauthorized copy protection pattern correcting operation;</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DESCRIPTION OF REFERENCE NUMERALS</heading>
+<p id="p-0038" num="0037"><b>100</b> READING PART</p>
+<p id="p-0039" num="0038"><b>200</b> COPYING PART</p>
+<p id="p-0040" num="0039"><b>300</b> IMAGE INFORMATION STORING PART</p>
+<p id="p-0041" num="0040"><b>301</b> IMAGE MEMORY PART</p>
+<p id="p-0042" num="0041"><b>302</b> SYSTEM CONTROL UNIT</p>
+<p id="p-0043" num="0042"><b>302</b>-<b>1</b> CPU</p>
+<p id="p-0044" num="0043"><b>302</b>-<b>2</b> ROM</p>
+<p id="p-0045" num="0044"><b>302</b>-<b>3</b> RAM</p>
+<p id="p-0046" num="0045"><b>400</b> OPERATING PART</p>
+<p id="p-0047" num="0046"><b>500</b> WRITING PART</p>
+<p id="p-0048" num="0047"><b>501</b> IMAGE CONVERTING PART</p>
+<p id="p-0049" num="0048"><b>501</b>-<b>2</b> MEMORY CONTROL PART</p>
+<p id="p-0050" num="0049"><b>501</b>-<b>21</b> LINE MEMORY</p>
+<p id="p-0051" num="0050"><b>501</b>-<b>22</b> IMAGE MATRIX GENERATING PART</p>
+<p id="p-0052" num="0051"><b>501</b>-<b>23</b> LINE MEMORY CONTROL PART</p>
+<p id="p-0053" num="0052"><b>501</b>-<b>3</b> UNAUTHORIZED COPY PROTECTION PATTERN CORRECTING PART</p>
+<p id="p-0054" num="0053"><b>501</b>-<b>31</b> DELAY PART</p>
+<p id="p-0055" num="0054"><b>501</b>-<b>32</b> IMAGE MATRIX GENERATING PART</p>
+<p id="p-0056" num="0055"><b>501</b>-<b>33</b> PATTERN RECOGNIZING AND OUTPUT IMAGE GENERATING PART</p>
+<p id="p-0057" num="0056"><b>502</b> LPH CONTROL CIRCUIT</p>
+<p id="p-0058" num="0057"><b>503</b>-<b>1</b>, <b>2</b>, <b>3</b> LPH</p>
+<p id="p-0059" num="0058"><b>505</b> DRIVING CONTROL PART</p>
+<p id="h-0005" num="0000">Detailed Description of the Preferred Embodiments</p>
+<p id="p-0060" num="0059">One idea to solve the above-mentioned problem is to control a size of an isolated dot included in an unauthorized copy protection pattern with the use of a so-called thinning function or such, for the purpose that the above-mentioned requirements of the standard for unauthorized copy protection patterns may be met. Actually, for a horizontal direction of an image, the above-mentioned thinning function may be effective. However, for a vertical direction, the thinning function may not be sufficiently effective. Therefore, it may not be possible that the requirements of the standard are met, by this method. Further, when control of image processing is made for the vertical direction of a given image, an influence may appear to the entirety of the image. Therefore, control of image processing for the vertical direction may not be effective. Further, a pixel diameter of each LED device of an LPH depends on generally-used components/parts. Thus, it may be difficult to change the pixel diameter of the LED device. Further, a change of the above-mentioned process conditions may have an adverse effect, and thus, it may not be possible to actually change the process conditions. Therefore, it may be actually difficult to change developing roller diameters, developing systems, toner ingredient diameters, and so forth, to achieve a dot diameter equivalent to a dot diameter obtained from another type of image forming apparatus provided for smaller-size paper, to meet the requirements of the standard.</p>
+<p id="p-0061" num="0060">In an embodiment of the present invention, in an image writing part, line memories are used and a small image matrix (simply referred to as an image matrix) is extracted in sequence. By reading the thus-extracted image matrix, an unauthorized copy protection pattern is recognized if the image matrix includes an isolated dot of the unauthorized copy protection pattern. When the unauthorized copy protection pattern is thus recognized from the image matrix, a size of the entirety of a dot pattern of the isolated dot included in the unauthorized copy protection pattern is controlled as a result of a light emitting amount of a LED device is controlled for each pixel. Because an A0 photosensitive body has a wide width, process characteristics vary depending on a height on the photosensitive body. As a result, a dot diameter of a dot consequently formed on paper may vary. <figref idref="DRAWINGS">FIG. 26</figref> shows an example of such a phenomenon. That is, a size of a dot may vary, as shown in <figref idref="DRAWINGS">FIG. 26</figref>, among a left side, a center and a right side on the A0 photosensitive body.</p>
+<p id="p-0062" num="0061">In order to effectively control such a variation of a dot diameter even on an A0 photosensitive body for example, and to consequently improve an accuracy of recognizing an unauthorized copy protection pattern or a recognition rate, a first aspect of an embodiment has the following configuration. That is, an optical writing apparatus superposes an unauthorized copy protection pattern on given image data, and carries out optical writing on a photosensitive body with the use of a light emitting device array. A storing part is provided to store every n lines of the image data. A matrix generating part is provided to generate an image matrix of n&#xd7;n (n denotes an integer equal to or more than 2) with the use of the image data read from the storing part. A control part is provided to check image data of the image matrix generated by the matrix generating part to recognize the unauthorized copy protection pattern. The control part corrects the image data of the unauthorized copy protection pattern in pixel units when thus recognizing the unauthorized copy protection pattern. The control part thus controls a size of an isolated dot of the unauthorized copy protection pattern. Further, the control part divides a given image in a main scan direction, and controls a size of an isolated dot of the unauthorized copy protection pattern separately for each of the thus-obtained divided image areas.</p>
+<p id="p-0063" num="0062">In a second aspect of an embodiment, in addition to the above-mentioned first aspect, a plurality of light emitting device arrays, each having a width shorter than a size of A0 paper to which an image written on the photosensitive body is transferred, are arranged as follows: That is, the light emitting device arrays overlap each other along the main scan direction. Optical writing is carried out for a writing width of an A0 size. The control part controls a size of an isolated dot included in the unauthorized copy protection pattern for an image area of a joint portion between adjacent ones of the light emitting device arrays separately from that of the other portions.</p>
+<p id="p-0064" num="0063">In a third aspect of an embodiment, in addition to the above-mentioned second aspect, the control part controls a size of an isolated dot for each divided image area separately from another divided image area, obtained from dividing in the main scan direction a given image, other than the joint portions.</p>
+<p id="p-0065" num="0064">In a fourth aspect of an embodiment, in addition to any one of the above-mentioned first through third aspects, a setting part is provided to externally set widths of the divided image areas.</p>
+<p id="p-0066" num="0065">In a fifth aspect of an embodiment, in addition to any one of the above-mentioned first through third aspects, a setting part is provided to externally set the number of divisions of the divided image areas.</p>
+<p id="p-0067" num="0066">In a sixth aspect of an embodiment, in addition to any one of the above-mentioned first through third aspects, a setting part is provided to set externally a reference pixel pattern used for recognizing an isolated dot included in the unauthorized copy protection pattern.</p>
+<p id="p-0068" num="0067">In a seventh aspect of an embodiment, in addition to the above-mentioned sixth aspect, an adjusting part is provided to adjust a manner of correcting each pixel included in an isolated dot included in the unauthorized copy protection pattern.</p>
+<p id="p-0069" num="0068">In an eighth aspect of an embodiment, in addition to the above-mentioned seventh aspect, the adjusting part has an output control part configured to control output of a light emitting device corresponding to each pixel included in the isolated dot.</p>
+<p id="p-0070" num="0069">In a ninth aspect of an embodiment, in addition to the above-mentioned seventh aspect, the adjusting part has a transfer rate control part configured to control a transfer rate of image data to a light emitting device corresponding to each pixel included in the isolated dot.</p>
+<p id="p-0071" num="0070">In a tenth aspect of an embodiment, in addition to the above-mentioned seventh aspect, an output control part configured to control output of a light emitting device corresponding to each pixel included in the isolated dot, a transfer rate control part configured to control a transfer rate of image data to the light emitting device; and a selecting part configured to select either one of the output control part and the transfer rate control part, are provided. The selecting part selects either one of the output control part and the transfer rate control part depending on whether a binary mode or a multi-level mode is used. The adjusting is carried out with the use of one of the output control part and the transfer rate control part, selected by the selecting part.</p>
+<p id="p-0072" num="0071">An image forming apparatus may include the optical writing apparatus according to any one of the above-mentioned first through tenth aspects.</p>
+<p id="p-0073" num="0072">According to an eleventh aspect of an embodiment, an unauthorized copy protection pattern is superposed on given image data, and optical writing is carried out on a photosensitive body with the use of a light emitting device array. A matrix generating step is carried out to generate an image matrix from the image data in which the unauthorized copy protection pattern has been thus superposed on given image data, with the use of line memories. A pattern recognizing step is carried out to read the image matrix generated in the matrix generating step to recognize the unauthorized copy protection pattern. A control step is carried out, when thus recognizing the unauthorized copy protection pattern in the pattern recognizing step, to control a size of the entirety of an isolated dot of the unauthorized copy protection pattern by controlling a light amount of each light emitting device in pixel unit. Further, the control step divides a given image in a main scan direction, and controls a size of an isolated dot of the unauthorized copy protection pattern separately for each of the thus-obtained divided image areas.</p>
+<p id="p-0074" num="0073">According to a twelfth aspect of an embodiment, an unauthorized copy protection pattern is superposed on given image data, and optical writing is carried out on a photosensitive body with the use of a light emitting device array. A storing step is carried out to store every n lines of the image data. A matrix generating step is carried out to generate an image matrix of n&#xd7;n (n denotes an integer equal to or more than 2) with the use of the image data stored in the storing steps A control step is carried out to check image data of the image matrix generated by the matrix generating step to recognize the unauthorized copy protection pattern. The control step corrects the image data of the unauthorized copy protection pattern in pixel units when thus recognizing the unauthorized copy protection pattern. The control step thus controls a size of an isolated dot of the unauthorized copy protection pattern. Further, the control step divides a given image in a main scan direction, and controls a size of an isolated dot of the unauthorized copy protection pattern separately for each of the thus-obtained divided image areas.</p>
+<p id="p-0075" num="0074">In a thirteenth aspect of an embodiment, in addition to the above-mentioned eleventh or twelfth aspect of the embodiment, a plurality of light emitting device arrays, each having a width shorter than a size of A0 paper to which an image written on the photosensitive body is transferred, are arranged in such a manner that the light emitting device arrays overlap each other along the main scan direction. Optical writing is carried out for a writing width of an A0 size, The control step controls a size of an isolated dot included in the unauthorized copy protection pattern for an image area of a joint portion between adjacent ones of the light emitting device arrays separately from that of the other portions.</p>
+<p id="p-0076" num="0075">In a fourteenth aspect of an embodiment, in addition to the above-mentioned thirteenth aspect of the embodiment, the control step controls a size of an isolated dot for each divided image area separately from another divided image area, other than the joint portions.</p>
+<p id="p-0077" num="0076">It is noted that, the above-mentioned light emitting device array corresponds to an LPH<b>1</b> (<b>503</b>-<b>1</b>), an LPH<b>2</b> (<b>503</b>-<b>2</b>) and an LPH<b>3</b> (<b>503</b>-<b>3</b>). The storing part corresponds to line memories <b>501</b>-<b>21</b>. The matrix generating part corresponds to an image matrix generating part <b>501</b>-<b>32</b>. The control part corresponds to a CPU <b>302</b>-<b>1</b>, a pattern recognizing and output image generating part <b>501</b>-<b>33</b>. The setting part for externally setting information corresponds to the CPU <b>302</b>-<b>1</b>, an operating part <b>400</b> and registers realized by a RAM <b>302</b>-<b>3</b>. The output control part corresponds to an LPH control circuit <b>502</b>. A transfer rate control part corresponds to a delay control and LPH transfer part <b>502</b>-<b>3</b>. A selecting part corresponds to the CPU <b>302</b>-<b>1</b> and registers realized by the RAM <b>302</b>-<b>3</b>.</p>
+<p id="p-0078" num="0077">In an embodiment, an image area is divided in a main scan direction, and a size of an isolated dot included in an unauthorized copy protection pattern is controlled separately for each of the thus-obtained divided image areas. Thereby, it is possible to make uniform sizes of respective isolated dots included in the unauthorized copy protection pattern. Thus, it is possible to improve an unauthorized copy protection pattern recognition rate.</p>
+<p id="p-0079" num="0078">An embodiment 1 will now be described.</p>
+<p id="p-0080" num="0079"><figref idref="DRAWINGS">FIG. 1A</figref> shows a block diagram of a general configuration of an image forming apparatus in the embodiment <b>1</b>. As shown in <figref idref="DRAWINGS">FIG. 1A</figref>, the image forming apparatus includes an original reading part <b>100</b> reading image information from an original (i.e., an original manuscript or such, the same hereinafter), an image information storing part <b>300</b> storing the image information of the original, a copying unit <b>200</b> carrying out a series of processes to transfer the image information on transfer paper, a writing part <b>500</b> writing an image onto a photosensitive body to be then transferred to the transfer paper, a system control unit <b>302</b> controlling the above-mentioned parts/components, and an operating part <b>400</b> used by a user for inputting information to the system control unit <b>302</b> with the use of a keyboard or such. <figref idref="DRAWINGS">FIG. 1B</figref> shows an internal configuration of the system control unit <b>302</b>. As shown in <figref idref="DRAWINGS">FIG. 1B</figref>, the system control unit <b>302</b> includes the CPU <b>502</b>-<b>1</b> carrying out various operation processes, and ROM <b>302</b>-<b>2</b> and RAM <b>302</b>-<b>3</b> storing various sorts of information to be processed by the CPU <b>302</b>-<b>1</b>, programs carried out by the CPU <b>302</b>-<b>1</b>, and so forth.</p>
+<p id="p-0081" num="0080"><figref idref="DRAWINGS">FIG. 2</figref> shows a mechanical configuration of the image forming apparatus in the embodiment 1. The image forming apparatus <b>200</b> includes the copy unit <b>200</b> and the image reading part <b>100</b>. The image reading part <b>100</b> is mounted on a top of the copy unit <b>200</b>, and both are integrated together. In the copy unit <b>200</b>, an image forming part in an upper part and a paper feeding part in a lower part, are included.</p>
+<p id="p-0082" num="0081">When a user inserts an original to the image reading part <b>100</b> from an inserting hole <b>10</b>, the original is conveyed through between a contact image sensor (i.e., CIS) <b>101</b> and a white roller <b>23</b> as a roller <b>21</b> rotates. During conveyance, the original has light applied thereto by means of an LED device mounted on the CIS <b>101</b>. Reflected light is then focused onto the CIS <b>101</b>, and thus, the original image information is read.</p>
+<p id="p-0083" num="0082">As shown in <figref idref="DRAWINGS">FIG. 1A</figref>, the CIS <b>101</b> converts the focused original image into an analog signal, which is then amplified by an image amplifying circuit <b>102</b>. An A/D converting circuit <b>103</b> converts the thus-amplified image signal into a multi-level digital image signal. The digital image signal is then output in synchronization with a clock signal output from a synchronization control circuit <b>106</b>. Then, digital image information represented by the digital image signal is processed by a shading correcting circuit <b>104</b>, whereby a distortion caused by a light variation amount in the LED device, sensitivity variation in the CIS <b>101</b>, and so forth, is corrected. The digital image information thus corrected by the shading correcting circuit <b>104</b> is converted into digital recording image information by means of an image processing circuit <b>105</b>, and then is written in an image memory part <b>301</b> provided in an image information storing part <b>300</b>. Further, a reading control circuit <b>107</b> controls a synchronization control circuit <b>106</b> and so forth included in the reading part <b>100</b>. A scanner driving circuit <b>108</b> drives and controls motors rotating the roller <b>21</b>, the white roller <b>23</b> and so forth included in the reading part <b>100</b>.</p>
+<p id="p-0084" num="0083">The system control unit <b>302</b> controls the writing part <b>500</b> and the copy unit <b>200</b>, and controls a series of processes for writing an image on the photosensitive body according to the image information written in the image memory part <b>301</b>, and then, transferring the image to transfer paper. The writing part <b>500</b> carries out optical writing of an image in the copy unit <b>200</b>. In further detail, the system control unit <b>302</b> carries out overall control of the image forming apparatus. Thus, the system control unit <b>302</b> controls the reading control circuit <b>107</b>, the synchronization control circuit <b>106</b>, the image memory part <b>301</b>, the image converting part <b>501</b>, and the LPH control circuit <b>502</b>, which carry out image data transfer operations and image data processing operations. Further, the system control unit <b>302</b> controls the driving control circuit <b>505</b> which then in turn controls the scanner driving circuit <b>303</b> and the printer driving unit <b>303</b> which then in turn drives various motors so that the original and the transfer paper can be properly conveyed. An image delay memory <b>504</b> is a delay memory used when the LPH control circuit <b>502</b> carries out control operation. As mentioned above, the system control unit <b>302</b> has the CPU <b>302</b>-<b>1</b>. The CPU <b>302</b>-<b>1</b> executes a program written in the ROM <b>302</b>-<b>2</b> or the RAM <b>302</b>-<b>3</b>, which are computer readable information recording media, and are also included in the system control unit <b>302</b>. Thus, the CPU <b>302</b>-<b>1</b> carries out the above-mentioned control operation.</p>
+<p id="p-0085" num="0084">The control operation of the CPU <b>302</b>-<b>1</b> includes a control operation of controlling the image memory <b>301</b> and so forth to superpose an unauthorized copy protection pattern on given image data representing an image to be printed by means of the copy unit <b>200</b>. The control operation to superpose an unauthorized copy protection pattern is, for example, a control operation for performing operation to superpose an unauthorized copy protection pattern on image data as a copy preventing pattern by means of a secret numbering function which is a well-know art (see Japanese Patent No. 3078433, paragraph 0024). As a specific configuration example required for performing the operation to superpose an unauthorized copy protection pattern on image data, the above-mentioned well-known art can be used for example. Therefore, detailed description thereof is omitted. With the use of a register which can be externally set, for example, it may be set whether the operation to superpose an unauthorized copy protection pattern on image data is actually carried out. Further, the control operation of the CPU <b>302</b>-<b>1</b> includes a control operation, described later, to recognize an isolated dot included in an unauthorized copy protection patter, and correct the isolated dot, which operation is actually carried out by an unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> and so forth, described later, under the CPU <b>302</b>-<b>1</b> of the control of the system control unit <b>302</b>.</p>
+<p id="p-0086" num="0085">The writing part <b>500</b> receives an image signal transferred with a synchronization clock signal in the image converting part <b>501</b>, and transfers it to the LPH control circuit <b>502</b> as it is. Alternatively, the image signal undergoes density conversion and then, is provided to the LPH control circuit <b>502</b>. The LPH control circuit <b>502</b> divides the received image signal into an image signal for the LPH<b>1</b> (<b>503</b>-<b>1</b>), an image signal for the LPH<b>2</b> (<b>503</b>-<b>2</b>), and an image signal for the LPH<b>3</b> (<b>503</b>-<b>3</b>). Further, the LPH control circuit <b>502</b> carries out image correction on image data represented by the received image signal. The LPH<b>1</b> through LPH<b>3</b> (<b>503</b>-<b>1</b> through <b>503</b>-<b>3</b>) convert the image data into infrared light, and output the infrared light. The image data thus converted into the infrared light and output is provided to the copy unit <b>200</b>.</p>
+<p id="p-0087" num="0086">Next, a configuration of the copy unit <b>200</b> is described with reference to <figref idref="DRAWINGS">FIG. 2</figref>. An electricity charging unit <b>24</b> shown in <figref idref="DRAWINGS">FIG. 2</figref> is a charging unit called a scorotron charger, with a grid, for uniformly charging the drum shaped photosensitive body <b>25</b> acting as an image carrier at &#x2212;2500 V. The photosensitive body <b>25</b> is rotated by a motor not shown. The LPHs <b>503</b> are configured such that the LPH<b>1</b> through LPH<b>3</b> (<b>503</b>-<b>1</b> through <b>503</b>-<b>3</b>) are arranged along a main scan direction, and a plurality of LED devices are arranged in array shapes in the main scan direction. Based on image information provided by the LPH control circuit <b>502</b>, the LED devices of the LPH<b>1</b> through LPH<b>3</b> (<b>503</b>-<b>1</b> through <b>503</b>-<b>3</b>) emit light, and the light is then applied to the photosensitive body <b>25</b> via a SELFOC (registered trade name) lens array which is an optical device.</p>
+<p id="p-0088" num="0087">When the photosensitive body <b>25</b> is thus exposed to the light applied based on the digital image information from the LPH<b>1</b> through LPH<b>3</b>, a photoelectric phenomenon causes a charge on a surface thereof to flow to the ground. The LPH<b>1</b> through LPH<b>3</b> emit a large amount of light with the LED devices for a part at which an original is dark while the LPH<b>1</b> through LPH<b>3</b> emit a smaller amount of light for a part at which the original is light. By such a manner of control, an electrostatic latent image having image parts, corresponding to dark parts and light parts of the original, is formed on the photosensitive body <b>25</b>. The electrostatic latent image thus formed on the photosensitive body <b>25</b> is then developed by a developing unit <b>27</b>, into a toner image. The developing unit <b>27</b> is configured such that, in the inside, toner is stirred, so that the toner is charged negatively. There, &#x2212;700 V is applied as a bias. Thereby, the toner adheres only to a part to which light is thus applied.</p>
+<p id="p-0089" num="0088">Transfer paper acting as a sheet like recording medium is fed to a registration roller <b>31</b> selectively from three paper feeding tables <b>28</b>, <b>29</b>, <b>30</b> and a manual feeding part. The transfer paper is then fed in predetermined timing by means of the registration roller <b>31</b>, to pass below the photosensitive body <b>25</b>. At this time, a transfer charger <b>32</b> as a transfer means transfers the toner image formed on the photosensitive body <b>25</b> to the transfer paper. The transfer paper is then removed from the photosensitive body <b>25</b> by means of a removing charger <b>33</b>, and then, is fed to a fixing unit <b>35</b> by means of a conveying belt <b>34</b>. The toner on the transfer paper is fixed by means of the fixing unit <b>35</b>. The transfer paper is then ejected to the outside of the image forming apparatus by means of ejecting rollers <b>36</b>, <b>37</b>.</p>
+<p id="p-0090" num="0089"><figref idref="DRAWINGS">FIG. 3</figref> shows a block diagram showing a flow of image data in the writing part <b>500</b>. In <figref idref="DRAWINGS">FIG. 3</figref>, the writing unit <b>500</b> includes the image converting part <b>501</b>, the LPH control part <b>502</b>, the LPH<b>1</b> through LPH<b>3</b> <b>503</b>-<b>1</b> through <b>503</b>-<b>3</b> (simply referred to as LPHs hereinafter) and an SDRAM <b>504</b>.</p>
+<p id="p-0091" num="0090">The writing part <b>500</b> carries out data replacement in a data flow as follows:</p>
+<p id="p-0092" num="0091">1) First, from the image information storing part <b>301</b>, image data <b>301</b>-<b>1</b> (see <figref idref="DRAWINGS">FIG. 4</figref>) of even-numbered pixels (referred to as EVEN, hereinafter) and odd-numbered pixels (referred to as ODD, hereinafter) are provided simultaneously.</p>
+<p id="p-0093" num="0092">2) The thus-provided image data undergo image correction as is necessary in response to a result of pattern recognition (also referred to as pattern matching), in the image converting part <b>501</b>.</p>
+<p id="p-0094" num="0093">3) Next, the LPH control circuit <b>502</b> divides the image data (i.e., in this case, line data in the main scan direction) provided from the image converting part <b>501</b> and writes the thus-divided image data in three A-group SRAMs (<b>502</b>-<b>1</b>A) of an image data RAM part <b>502</b>-<b>1</b>.</p>
+<p id="p-0095" num="0094">4) Next, a line of image data thus written in the three A-group SRAMs <b>502</b>-<b>1</b>A is read simultaneously.</p>
+<p id="p-0096" num="0095">5) During the time when the image data are read from the A-group SRAMs <b>502</b>-<b>1</b>A, a second line of image data is written in three B-group SRAMs <b>502</b>-<b>1</b>B. That is, a so-called toggling operation is carried out. Selection of the SRAM groups <b>502</b>-<b>1</b> is carried out by an address control part <b>502</b>-<b>2</b>.</p>
+<p id="p-0097" num="0096">6) Image data, corresponding to the respective LPHs, thus read from the SRAMs <b>502</b>-<b>1</b> is once transferred to the SDRAM <b>504</b>, and then, is read again. The LPH<b>1</b> through LPH<b>3</b> <b>503</b>-<b>1</b> through <b>503</b>-<b>3</b> shift in a sub-scan direction according to a predetermined mechanical layout thereof. That is, the LPHs are disposed in a staggered manner (see <figref idref="DRAWINGS">FIGS. 21</figref>, <b>22</b>). Therefore, the LPH<b>1</b> <b>503</b>-<b>1</b> is used as a benchmark, while, image data for the LPH<b>2</b> <b>503</b>-<b>2</b> and the LPH<b>3</b> <b>503</b>-<b>3</b> are read with a delay corresponding to the sift amount of the LPHs. Such a manner of reading is carried out by a delay control and LPH transfer part <b>502</b>-<b>3</b>. The image delay memory <b>504</b> shown in <figref idref="DRAWINGS">FIG. 1A</figref> corresponds to the SDRAM <b>504</b> shown in <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+<p id="p-0098" num="0097">7) Finally, the delay control and LPH transfer part <b>502</b>-<b>3</b> transfers image data to the LPH<b>1</b> through LPH<b>3</b> <b>503</b>-<b>1</b> through <b>503</b>-<b>3</b>.</p>
+<p id="p-0099" num="0098">The image converting part <b>501</b> includes, as shown in <figref idref="DRAWINGS">FIG. 4</figref>, a GATE control part <b>501</b>-<b>1</b>, a memory control part <b>501</b>-<b>2</b>, an image recognizing part (i.e., an unauthorized copy protection pattern recognizing part) <b>501</b>-<b>3</b>, and a main/sub trim processing part <b>501</b>-<b>5</b>. Respective density converting modes (i.e., image outputting modes) in the image converting part <b>501</b> may be set externally and freely with the use of a register dense_r [2:0]. <figref idref="DRAWINGS">FIG. 5</figref> shows the respective density converting modes set by means of the register dense_r [2:0], and shows matrix sizes for the respective modes, described later. The density converting modes include a &#x2018;through mode&#x2019; in which no image processing is carried out (i.e., ordinary outputting mode), an &#x2018;equal density mode&#x2019;, a &#x2018;two-times density mode&#x2019;, a &#x2018;three-times density mode&#x2019;, and a &#x2018;1.5-times density mode&#x2019;.</p>
+<p id="p-0100" num="0099">The GATE control part <b>501</b>-<b>1</b> generates LSYNC_<b>0</b> to be provided to the image information storing part <b>300</b>. LSYNC_<b>0</b> is set separately for each of the through mode, the equal density mode, two-times density mode or three-times density mode, and the 1.5-times density mode, of the above-mentioned density converting modes. LSYNC provided by the image information storing part <b>300</b> is thinned in the modes in which image density is converted. Therefore, interpolation should be carried out before LSYNC is provided to the LPH control circuit <b>502</b>. The GATE control part <b>501</b>-<b>1</b> carries out a process for this purpose. Also the GATE control part <b>501</b>-<b>1</b> generates dummy FGATE.</p>
+<p id="p-0101" num="0100">The memory control part <b>501</b>-<b>2</b> generates line groups arranged in the sub-scan direction of an image matrix, according to the selected density converting mode. Main operation of the memory control part <b>501</b>-<b>2</b> is described below.</p>
+<p id="p-0102" num="0101">(a) The following operation is carried out for two pixels of EVEN and ODD in parallel:</p>
+<p id="p-0103" num="0102">Mask data are written, reading from the line memories <b>501</b>-<b>21</b> is carried out, and writing to the line memories <b>501</b>-<b>21</b> is carried out. The mask data means data such that a pixel value is 0.</p>
+<p id="p-0104" num="0103">Specifically, image data of 21600 dots which corresponds to the number of pixels for one line are written in each of the line memories 5-1-21 having addresses 0 through 10799 and a width of 5 bits, every PLSYNC_N.</p>
+<p id="p-0105" num="0104">When there is no assertion of PFGATE_N and PLGATE_N, mask data are written in the line memories <b>501</b>-<b>21</b>.</p>
+<p id="p-0106" num="0105">When assertion of PLGATE_N does not occur during 32 clock pulses from PLSYNC_N, writing to the line memories <b>501</b>-<b>21</b> is forcibly started.</p>
+<p id="p-0107" num="0106">Thereby, before assertion of PFGATE_, the eight line memories <b>501</b>-<b>21</b> are filled with the mask data (=0).</p>
+<p id="p-0108" num="0107">(b) During PFGATE_N and PLGATE_N being enabled, image data are written instead of mask data.</p>
+<p id="p-0109" num="0108">(c) Data being read from the line memories <b>501</b>-<b>21</b> is carried out every plsync_n (having intervals of 600 dpi as a result of interpolation of PLSYNC_N).</p>
+<p id="p-0110" num="0109">A size of an image matrix used for each density converting mode (i.e., magnification) is as shown in <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+<p id="p-0111" num="0110">In the above-mentioned equal density mode (also referred to as a printer output mode), or the above-mentioned through mode (also referred to as an ordinary image output mode), an image matrix generating part <b>501</b>-<b>22</b> of the memory control part <b>501</b>-<b>2</b> generates line groups used for a 7&#xd7;7 pixel image matrix. When an unauthorized copy protection pattern correcting function described below is set valid, the above-mentioned line groups are transferred to a next block, i.e., an unauthorized copy protection pattern part <b>501</b>-<b>3</b>. Otherwise, the line groups are provided to a density converting processing part <b>501</b>-<b>4</b>. In the 1.5-times density mode, as shown in <figref idref="DRAWINGS">FIG. 5</figref>, three different image matrixes (i.e., 2&#xd7;2, 6&#xd7;2 and 4&#xd7;3) are generated. After that, in each mode, a necessary image matrix is used. For the purpose of simplification of explanation, an image matrix used for unauthorized copy protection pattern correction is assumed simply to be a 7&#xd7;7 pixel image matrix, hereinafter.</p>
+<p id="p-0112" num="0111">A line memory control part (having functions of writing, reading and block switching) <b>501</b>-<b>23</b> carries out an operation of reading from and writing to the line memories <b>501</b>-<b>21</b>. As shown in <figref idref="DRAWINGS">FIG. 6</figref>, writing is carried out to one (line memory <b>3</b> in a case of <figref idref="DRAWINGS">FIG. 6</figref>) of the eight line memories. Line data is read from the other seven line memories, and thus, 7 lines of image data for being arranged in the sub-scan direction are provided for an image matrix. <figref idref="DRAWINGS">FIGS. 7A and 7B</figref> show a detailed timing chart for the <b>1</b>s memory reading/writing operation.</p>
+<p id="p-0113" num="0112"><figref idref="DRAWINGS">FIG. 8</figref> shows a block diagram showing details of the unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b>. The unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> reads an image matrix generating part register (i.e., hcopyset [1:0], which can be freely set externally), and determines whether the unauthorized copy protection pattern correcting function is valid, and whether a binary mode or a multi-level mode is used. When it is determined that the unauthorized copy protection pattern correcting function is valid, an unauthorized copy protection pattern superposed on image data is recognized. That is, first, an image matrix is generated with the use of image data of 1 through 7 lines obtained from the image matrix generating part <b>501</b>-<b>22</b>. Next, pattern recognition is carried out on the thus-obtained image matrix. When an unauthorized copy protection pattern is actually found out as a result of the above-mentioned pattern recognition, correction is carried out on the thus-found unauthorized copy protection pattern. Details of the correction will be described later, and an operation flow will be described later with reference to <figref idref="DRAWINGS">FIG. 28</figref>. The unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> includes a delay part <b>501</b>-<b>31</b> including 7 lines each having three FFs, an image matrix generating part <b>501</b>-<b>32</b> to which data delayed by the delay part <b>501</b>-<b>31</b> are input, a pattern recognition and output image generating part <b>501</b>-<b>33</b> and a main scan counter <b>501</b>-<b>34</b>.</p>
+<p id="p-0114" num="0113"><figref idref="DRAWINGS">FIG. 9</figref> shows settings in the image matrix generating part register (hcopyset [1:0]). Such a register (i.e., each register including in the image forming apparatus) is actually realized by the ROM <b>302</b>-<b>3</b> of the system control unit <b>302</b>, for example. As shown in <figref idref="DRAWINGS">FIG. 9</figref>, a setting of &#x201c;1&#x201d; in the hcopyset [1:0] is for a case where the unauthorized copy protection pattern correcting function is made invalid. A setting of &#x201c;2&#x201d; in the hcopyset [1:0] is for a case where the unauthorized copy protection pattern correcting function is made valid, and also, the binary mode is used. A setting of &#x201c;3&#x201d; in the hcopyset [1:0] is for a case where the unauthorized copy protection pattern correcting function is made valid and also the multi-level mode is used.</p>
+<p id="p-0115" num="0114">Details of generating a 7&#xd7;7 pixel image matrix are described now. As shown in <figref idref="DRAWINGS">FIG. 8</figref>, image data for two pixels of EVEN and ODD output from the line memories <b>501</b>-<b>21</b> are latched by each FF of the delay part <b>501</b>-<b>31</b>. In <figref idref="DRAWINGS">FIG. 8</figref>, &#x2018;first line once latched data&#x2019; means data obtained from first line data being once delayed. Similarly, &#x2018;first line twice latched data&#x2019; means data obtained from first line data being twice delayed. Similarly, &#x2018;first line thrice latched data&#x2019; means data obtained from first line data being thrice delayed. As a result, together with two pixels currently read, image data of total 8 pixels can be obtained. Because output of the line memories <b>501</b>-<b>21</b> is for eight lines, consequently it is possible to obtain image data of 7&#xd7;8 pixels simultaneously. In the unauthorized copy protection pattern correcting function, the actual unauthorized copy protection pattern correction is carried out with the use of an image matrix of 7&#xd7;8 pixels thus generated by the image matrix generating part <b>501</b>-<b>32</b>. That is, two pixels of EVEN and ODD are processed in parallel, and also, a 7&#xd7;8 pixel image matrix is obtained as mentioned above. Then, from the 7&#xd7;8 pixel image matrix, a 7&#xd7;7 pixel image matrix is extracted having front 7 pixels (i.e., front 7 columns) in the main scan direction. Then, the thus-extracted 7&#xd7;7 pixel image matrix is used, and a center pixel thereof as a target pixel is corrected. After that, a shift is carried out on the 7&#xd7;8 pixel image matrix in the main scan direction for one pixel. Thereby, a next 7&#xd7;7 pixel image matrix is extracted having rear 7 pixels (i.e., rear 7 columns) in the main scan direction. Then, the thus-extracted 7&#xd7;7 pixel image matrix is used, and a center pixel thereof is corrected. <figref idref="DRAWINGS">FIG. 10</figref> shows a timing chart for generating the above-mentioned 7&#xd7;8 pixel image matrix.</p>
+<p id="p-0116" num="0115">Pattern recognition in the embodiment is carried out as follows:</p>
+<p id="p-0117" num="0116">First, a case where image division is performed in the main scan direction is described. A div_set [14:0] register (for example, realized by the RAM <b>302</b>-<b>3</b> of the system control unit <b>302</b>, which is freely set externally) shown in a lower part of <figref idref="DRAWINGS">FIG. 8</figref>, is used to set a divided image area width, and the number of divisions. Assuming that the writing maximum width in the main scan direction is 21600 dots, and a value set in the div_set [14:0] is a divided image area width, the number of divisions is calculated as follows:
+<br/>
+<?in-line-formulae description="In-line Formulae" end="lead"?>The number of divisions=21600/div_set [14.0]&#x2003;&#x2003;(1)<?in-line-formulae description="In-line Formulae" end="tail"?>
+</p>
+<p id="p-0118" num="0117">That is, the number of divisions is set based on calculation of the above formula (1). When the calculation of the formula (1) is divisible, the number of the divisions is the quotient of the calculation. When the calculation is not divisible, the quotient is rounded up, and thus, the number of divisions is obtained.</p>
+<p id="p-0119" num="0118"><figref idref="DRAWINGS">FIG. 11</figref> shows an example of main scan image dividing. In <figref idref="DRAWINGS">FIG. 11</figref>, the number of divisions is 5. In this embodiment, the maximum available number of divisions is 16.</p>
+<p id="p-0120" num="0119">Pattern recognition is carried out by the pattern recognizing and output image generating part <b>501</b>-<b>33</b> of the unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b>. A total of 10 matching patterns (also referred to as reference pixel patterns), as shown in <figref idref="DRAWINGS">FIG. 12</figref>, are used, for an image matrix generated by the image matrix generating part <b>32</b>. These matching patterns are previously set in registers inpat <b>1</b>-<b>1</b> [4:0] through inpat <b>1</b>-<b>49</b> [4:0] (for example, realized by the ROM <b>302</b>-<b>3</b> of the system control unit <b>302</b>, which can be freely set externally). The total <b>49</b> registers inpat <b>1</b>-<b>1</b> through inpat <b>1</b>-<b>49</b> correspond to respective ones of a total of 49 pixels of a 7&#xd7;7 pixel matrix generated by the image matrix generating part <b>501</b>-<b>32</b>, respectively (as shown in a lower part of <figref idref="DRAWINGS">FIG. 12</figref>). In the lower part of <figref idref="DRAWINGS">FIG. 12</figref>, the 7&#xd7;7 pixel image matrix is shown. The 7&#xd7;7 pixel image matrix has matrix elements <b>1</b> through <b>49</b> as shown. These matrix elements correspond to respective pixels included in the image matrix. Respective pixel values corresponding to these pixels are set in the above-mentioned 49 registers inpat <b>1</b>-<b>1</b> through inpat <b>1</b>-<b>49</b>, respectively. The total 10 sets are prepared as mentioned above, and each set includes the 49 registers. As a result, the total 10 matting patterns are prepared. In these ten sets of registers, 10 possible dot patterns for an isolated dot included in an unauthorized copy protection pattern are set, respectively. Actually, these 10 possible dot patterns correspond to ten possible patterns which are different according to where a target pixel is located in the isolated dot. With the use of these dot patterns, pattern recognition is carried out on the given image data to find an isolated dot included in an unauthorized copy protection pattern, and then, the thus-found isolated dot is corrected. Thus, it is possible to particularly correct the unauthorized copy protection pattern, and it is not necessary to correct the entirety of an image represented by image data including the given image data.</p>
+<p id="p-0121" num="0120">Determination as to which one of the above-mentioned ten matching patterns matches a given imaged matrix is carried out by the pattern recognizing and output image generating part <b>501</b>-<b>33</b> shown in <figref idref="DRAWINGS">FIG. 8</figref>. After matching is obtained, a target pixel, i.e., a center pixel of the given image matrix, is corrected in such a manner that a corresponding pixel value according the matching result is used to replace the original one. The matching result means a result of the determination as to which one of the above-mentioned ten matching patterns matches the given imaged matrix. The main scan counter <b>501</b>-<b>34</b> carries out counting to determine at all times what number in the main scan direction the current target pixel corresponds to. As a result, it is possible to determine which one of the divided image areas (i.e., the divided areas shown in <figref idref="DRAWINGS">FIG. 11</figref>) the target pixel belongs to. When the given 7&#xd7;7 pixel image matrix matches a matching pattern set in any one of the registers inpat <b>1</b>-<b>1</b> [4:0] through 1-49 [4:0], a pixel value of the target pixel is replaced by a pixel value based on a value of an appropriate one of output registers outpat <b>1</b>-<b>1</b> [4:0] through outpat <b>16</b>-<b>10</b> [4:0]. These output registers, shown in <figref idref="DRAWINGS">FIGS. 13 through 16</figref>, are set to correspond to the above-mentioned 10 matching patterns, and also, correspond to the above-mentioned divided image areas (the maximum number of divisions being <b>16</b> as mentioned above). The output registers may be realized by the RAM <b>302</b>-<b>3</b> of the system control unit <b>302</b> and can be freely set externally. The total 160 (i.e., 16&#xd7;10=160) output registers outpat <b>1</b>-<b>1</b> [4:0] through outpat <b>16</b>-<b>10</b> [4:0] are prepared. For example, the first output register outpat <b>1</b>-<b>1</b> is used to set a pixel value for a corrected target pixel for when a target pixel belongs to the first one of the above-mentioned divided image areas, and the first one of the above-mentioned ten matching patterns matches the given 7&#xd7;7 pixels image matrix. Similarly, for example, the last 160th output register outpat <b>16</b>-<b>10</b> is used to set a pixel value for a corrected target pixel for when a target pixel belongs to the 16th one of the above-mentioned divided image areas, and the tenth one of the above-mentioned ten matching patterns matches the given 7&#xd7;7 pixels image matrix.</p>
+<p id="p-0122" num="0121">Assuming that the multi-level mode is used, the pixel value thus obtained from the above-mentioned output register is used for a corrected target pixel, and is provided to the corresponding LPH. Assuming that the binary mode is used, a so-called pseudo multi-level mode method is used to obtain a corrected target pixel. The pseudo multi-level mode method is described now. A target pixel is written twice with shifting in the sub-scan direction. Such a manner will be referred to as &#x2018;sub-scan twice putting&#x2019; hereinafter. With the use of possible combinations of the thus-obtained total two pixel values (each having a binary value, i.e., 0 or 1), the number of gradations more than two directly obtained from the binary number system are available. Because the binary system has two values, 0 and 1, the number of the above-mentioned combinations is 2&#xd7;2=4. As a result, the total 4 values are available for a pixel value obtained from the sub-scan twice putting. Image data used in the image forming apparatus has such a data structure prepared for the multi-level mode. In the binary mode, only the lower two bits of the data structure are used to obtain the above-mentioned total 4 values for each pixel (i.e., 2 [bits]&#xd7;2 (of the binary system)=4).</p>
+<p id="p-0123" num="0122">Specifically, as shown in <figref idref="DRAWINGS">FIG. 17</figref>, a lower part, when a pixel value obtained from the above-mentioned output register is 00, writing is not carried out for two lines of the sub-scan twice putting. When a pixel value obtained from the above-mentioned output register is 01, writing is carried out only for the first line (i.e., a pixel value of the line is 1), and writing is not carried out (i.e., a pixel value of the line is 0) for the second line of the sub-scan twice putting. When a pixel value obtained from the above-mentioned output register is 10, writing is not carried out for the first line (i.e., a pixel value of the line is 0), and writing is carried out (i.e., a pixel value of the line is 1) for the second line of the sub-scan twice putting. When a pixel value obtained from the above-mentioned output register is 11, writing is carried out for each of the first and second lines (i.e., each of the respective pixel values of the lines is 1) of the sub-scan twice putting. Thus, in the binary mode, a corrected target pixel, corresponding to two pixels thus obtained from the sub-scan twice putting, to replace an original target pixel, is thus controlled. As a result, the target pixel included in an isolated dot of an unauthorized copy protection pattern is corrected, and thus, an unauthorized copy protection pattern is appropriately corrected.</p>
+<p id="p-0124" num="0123"><figref idref="DRAWINGS">FIG. 17</figref> illustrates unauthorized copy protection pattern correcting operation in the embodiment. An upper part of <figref idref="DRAWINGS">FIG. 17</figref> shows the 1st through 7th lines arranged in the sub-scan direction extracted from an image represented by given image data, each line including 0th through 23rd pixels arranged in the main scan direction. In the figure, a black circle represents a black pixel (i.e., a pixel having a pixel value of 1, the same manner holding hereinafter), and a white circle represents a white pixel (i.e., a pixel having a pixel value of 0, the same manner holding hereinafter). In the figure, four collections of black pixels are shown, each collection having 3&#xd7;3 black pixels, arranged horizontally in the main scan direction. These black pixel collections correspond to respective isolated dots of an unauthorized copy protection pattern in the example. Such an unauthorized copy protection pattern may be a well-known tint block (for example, a copy preventing pattern shown in the above-mentioned Japanese Patent No. 3078433, <figref idref="DRAWINGS">FIG. 2</figref>). <figref idref="DRAWINGS">FIG. 17</figref> shows a state in which, from given image data, a first image matrix (corresponding to the above-mentioned 7&#xd7;7 pixel image matrix, the same manner holding hereinafter) of a range of 1st through 7th lines arranged in the sub-scan direction is extracted, each line including 0th through 6th pixels arranged in the main scan direction, including the first isolated dot of the unauthorized copy protection pattern. Then, the thus-obtained first image matrix matches any one of the above-mentioned total ten matching patterns in the above-mentioned pattern recognition. Further, from the given image data, a second image matrix of a range of 1st through 7th lines arranged in the sub-scan direction is extracted, each line including 7th through 13th pixels arranged in the main scan direction, including the second isolated dot of the unauthorized copy protection pattern. Then, the thus-obtained second image matrix matches another one of the above-mentioned total ten matching patterns in the above-mentioned pattern recognition. Further, from the given image data, a third image matrix of a range of 1st through 7th lines arranged in the sub-scan direction is extracted, each line including 14th through 20th pixels arranged in the main scan direction, including the third isolated dot of the unauthorized copy protection pattern. Then, the thus-obtained third image matrix matches further another one of the above-mentioned total ten matching patterns in the above-mentioned pattern recognition. Further, from the given image data, a fourth image matrix of a range of 1st through 7th lines arranged in the sub-scan direction is extracted, each line including 21st through 27th pixels arranged in the main scan direction, including the fourth isolated dot of the unauthorized copy protection pattern. Then, the thus-obtained fourth image matrix matches further another one of the above-mentioned total ten matching patterns in the above-mentioned pattern recognition. <figref idref="DRAWINGS">FIG. 17</figref> shows a state, for the purpose of convenience of explanation, when the above-mentioned four times of matching occur simultaneously. However, actually in the pattern recognition, the image matrixes are extracted one by one in sequence, and a comparison is made each time with the matching patterns (see <figref idref="DRAWINGS">FIG. 28</figref>). Therefore, the above-mentioned four times of matching actually occur one by one in sequence and not simultaneously in the embodiment.</p>
+<p id="p-0125" num="0124">As shown in <figref idref="DRAWINGS">FIG. 17</figref>, only a target pixel, included in an isolated dot, is corrected. Thus, correction of an isolated dot included in an unauthorized copy protection pastern is carried out in pixel units. As shown in <figref idref="DRAWINGS">FIG. 17</figref>, the target pixel corresponds to a pixel located precisely at a center of 7&#xd7;7 pixels included in an image matrix. In the upper part of <figref idref="DRAWINGS">FIG. 17</figref>, &#x201c;T&#x201d; is given to each target pixel (the same manner holding hereinafter). In an example of <figref idref="DRAWINGS">FIG. 17</figref>, correction of an isolated dot of an unauthorized copy protection pattern is carried out in such a manner that a pixel located in the periphery of the isolated dot is apparently changed in its gradation. In such a manner of correction, as shown in <figref idref="DRAWINGS">FIGS. 29 and 30</figref> described later, the size of the isolated dot included in the unauthorized copy protection pattern is apparently reduced, so that the isolated dot can satisfy the above-mentioned standard for unauthorized copy protection patterns, and thus, the corresponding unauthorized copy protection pattern can be positively recognized by a second image processing apparatus. Thereby unauthorized copy protection function can actually work well. Specifically, in the example of <figref idref="DRAWINGS">FIG. 17</figref>, a target pixel of the above-mentioned first isolated dot, located in the 4th line in the sub-scan direction and at the 3rd pixel in the main scan direction, is a peripheral pixel of the first isolated dot. As mentioned above, the peripheral pixel of the isolated dot should be reduced in its gradation to apparently reduce the size of the corresponding isolated dot. Actually, as shown in the lower part of <figref idref="DRAWINGS">FIG. 17</figref>, for the corresponding pixel, a second line is not written (i.e., a white pixel occurs there) in the sub-scan twice putting to apparently reduce the gradation of the target pixel.</p>
+<p id="p-0126" num="0125"><figref idref="DRAWINGS">FIGS. 18 and 19</figref> show respective cases of the binary mode and the multi-level mode. In these figures, as the above-mentioned matching pattern, in binary mode shown in <figref idref="DRAWINGS">FIG. 18</figref>, &#x201c;1&#x201d; is set in each of the above-mentioned registers inpat <b>1</b>-<b>25</b> through <b>1</b>-<b>27</b>, inpat <b>1</b>-<b>32</b> through <b>1</b>-<b>34</b>, and inpat <b>1</b>-<b>32</b> through <b>1</b>-<b>41</b>, while &#x201c;0&#x201d; is set in each of the other registers. Correspondingly, in the thus obtained matching pattern, as shown in an upper part of <figref idref="DRAWINGS">FIG. 18</figref>, in a 7&#xd7;7 pixel image matrix, 25th through 27th, 32nd through 34th, and 39th through 41st (see <figref idref="DRAWINGS">FIG. 12</figref>, lower part), are black pixels, while the other pixels are white pixels. Further, in this example, it is assumed that, as shown in <figref idref="DRAWINGS">FIG. 18</figref>, upper part, in an image matrix extracted from given image data, an isolated dot occurs having 3&#xd7;3 black pixels in a range of 4th through 6th in the sub-scan direction and 3rd through 5th in the main scan direction. As a result, the image matrix extracted from the given image data is matched by the above-mentioned matching patterns. That is, when the image matrix extracted from the given image data is of a range of 0th through 7th in the sub-scan direction and 0th through 6th in the main scan direction as shown in <figref idref="DRAWINGS">FIG. 18</figref>, upper part, the image matrix is matched by the above-mentioned matching pattern. In this case, as shown in <figref idref="DRAWINGS">FIG. 18</figref>, lower part, a target pixel of the image matrix, i.e., a pixel of 4th line in the sub-scan direction and 3rd in the main scan direction, is corrected. The same manner holds in a case of FIG. <b>19</b>. However, in the case of <figref idref="DRAWINGS">FIG. 19</figref>, because the multi-level mode is used, &#x201c;1f&#x201d; is set in each of the above-mentioned registers inpat <b>1</b>-<b>25</b> through <b>1</b>-<b>27</b>, inpat <b>1</b>-<b>32</b> through <b>1</b>-<b>34</b>, and inpat <b>1</b>-<b>32</b> through <b>1</b>-<b>41</b>, while &#x201c;0&#x201d; is set in each of the other registers. As the above-mentioned output registers for setting a pixel value of a corrected target pixel, one thereof is selected corresponding to a divided image area to which the corresponding target pixel belongs. It can be seen from <figref idref="DRAWINGS">FIGS. 18 and 19</figref>, in the embodiment, pattern recognition is carried out with the use of an image matrix extracted from given image data, as well as previously provided matching patterns for an isolated dot included in an unauthorized copy protection pattern. Thereby, the isolated dot of the unauthorized copy protection pattern is found from image data in which the unauthorized copy protection pattern has been superposed on given image data, and a pixel included in the isolated dot is corrected to control the size of the isolated dot. Thus, it is possible to control only the unauthorized copy protection pattern superposed on the given image data without influencing an image represented by the given image data. Thus, it is possible to effectively control an unauthorized copy protection pattern superposed on given image data, and thus, it is possible that the unauthorized copy protection function positively works well.</p>
+<p id="p-0127" num="0126">The density converting processing part <b>501</b>-<b>4</b> subsequent to the unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> includes, although not shown, a smoothing processing part, a 1.5-times density converting processing part, an image selector, and a format converting part. The density converting processing part <b>503</b>-<b>4</b> selects any density converting mode according to the given setting mentioned above, and carries out a corresponding process on given image data. That is, when the through mode is selected, the given image data is simply made pass through. A corresponding density converting process is carried out on given image data when any one of the respective equal density, 1.5-times density, two-times density, and three-times density modes.</p>
+<p id="p-0128" num="0127">The main/sub-scan trim part <b>501</b>-<b>5</b> subsequent to the density converting processing part <b>501</b>-<b>4</b> carries out masking processing on given image data. Specific masking amounts for given image data in the main/sub-scan directions are determined according to given set values set in predetermined registers. The masking processing means a process for which corresponding image data are set to be &#x201c;0&#x201d;, for the purpose that nothing should be printed in page margins of top, bottom, left and right ends of paper.</p>
+<p id="p-0129" num="0128">The embodiment 1 described above has the following advantages:</p>
+<p id="p-0130" num="0129">1) A given image is divided in the main scan direction, and an isolated dot included in an unauthorized copy protection pattern is corrected separately depending on each of the thus-divided image areas. As a result, it is possible to carry out the correction in such a manner that variations in dot sizes caused by a position along the photosensitive body can be effectively reduced. Thereby, it is possible to improve a recognition rate when an unauthorized copy protection pattern superposed on given image data is recognized from an output image. <figref idref="DRAWINGS">FIG. 27</figref> shows a case where these variations are reduced. As can be seen from <figref idref="DRAWINGS">FIG. 27</figref>, the variations in dot sizes are corrected, depending on a position along a longitudinal direction of the A0-width photosensitive body as shown in <figref idref="DRAWINGS">FIG. 26</figref>. Thus, the dot sizes are made equal to each other throughout the entire length of the photosensitive body, as a result of correction of pixels of an isolated dot included in an unauthorized copy protection pattern being carried out in a manner depending on each particular divided image area.</p>
+<p id="p-0131" num="0130">2) A width of each divided image area when a given image is divided in the main scan direction can be freely set externally. Therefore, it is possible to finely carry out correction of dot size variations caused depending on a position along the photosensitive body. Thereby, it is possible to improve the recognition rate when an unauthorized copy protection pattern is recognized from an output image.</p>
+<p id="p-0132" num="0131">3) The number of divisions when a given image is divided in the main scan direction can be freely set externally. Therefore, it is possible to finely carry out correction of dot size variations caused depending on a position along the photosensitive body. Thereby, it is possible to improve the recognition rate when an unauthorized copy protection pattern is recognized from an output image.</p>
+<p id="p-0133" num="0132">4) The matching patterns used when pattern recognition is carried out with the use of an image matrix generated with the use of the line memories can be freely externally set. The matching patterns are used in the pattern recognition for determining whether a given image matrix includes an isolated dot of an unauthorized copy protection pattern, and also for determining a specific manner of correction depending on a position of a target pixel in the isolated dot by determining where the target pixel is located in the isolated dot. Further, it is possible to carry out unauthorized copy protection pattern correction whether the binary mode or the multi-level mode is used. As a result, it is possible to respond to a case where a dot pattern of an isolated dot included in an unauthorized copy protection pattern to be superposed on given image data is changed.</p>
+<p id="p-0134" num="0133">5) Set values in the output registers used for determining how to correct pixels of an isolated dot of an unauthorized copy protection pattern can be freely set externally. As a result, it is possible to externally adjust how to correct each pixel of the isolated dot included in the unauthorized copy protection pattern. As a further result, it is possible to carry out unauthorized copy protection pattern correction in consideration of possible variations among machines, a possible change in a dot shape due to a change in environment, and so forth.</p>
+<p id="p-0135" num="0134">6) When the image forming apparatus operates in the multi-level mode and has multi-level LPHs, a size of an isolated dot included in an unauthorized copy protection pattern can be controlled as a result of LED devices corresponding to respective pixels included in the isolated dot being controlled in their light emitting amounts.</p>
+<p id="p-0136" num="0135">7) When the image forming apparatus operates in the binary mode and has binary LPHs, the following method may be used. That is, it is assumed that, in an ordinary state, image data is transferred at a predetermined transfer rate x to the LPHs. Then, image data is transferred at m-times of the predetermined transfer rate x, where m denotes a positive integer. As a result, each pixel can be written m times with positions of writing being gradually shifted in the sub-scan direction. Thus, the above-mentioned pseudo multi-level mode method is used. As a result, it is possible to write a pixel in a pseudo multi-level mode method. By using the pseudo multi-level mode method, it is possible to control a size of an isolated dot included in an unauthorized copy protection pattern effectively.</p>
+<p id="p-0137" num="0136">8) It is possible to select a method used for unauthorized copy protection pattern correction, depending on whether the binary mode or the multi-level mode is used. As a result, it is possible to carry out unauthorized copy protection pattern correction in an appropriate manner whether the binary mode or the multi-level mode is used. As a result, it is possible to share a common unauthorized copy protection pattern correcting function among different types of machines of image forming apparatuses.</p>
+<p id="p-0138" num="0137">An image forming apparatus in an embodiment 2 will now be described.</p>
+<p id="p-0139" num="0138">The embodiment 2 is almost the same as the above-described embodiment 1, and thus, differences therebetween will be described. In the embodiment 2, a plurality of LPHs are connected to carry out writing on a photosensitive body for A0-size paper, and variations in dot sizes caused in portions at which adjacent LPHs are connected. Such portions at which the adjacent LPHs are connected are referred to as joint portions. The embodiment 2 has a configuration to avoid a possible degradation in the recognition rate occurring due to the above-mentioned variations in dot sizes in joint portions.</p>
+<p id="p-0140" num="0139"><figref idref="DRAWINGS">FIG. 20</figref> shows a block diagram of details of an unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> in the embodiment 2. In the embodiment 2, different from the embodiment 1, an area recognizing part <b>501</b>-<b>36</b> is provided between the pattern recognizing and output image generating part <b>501</b>-<b>33</b> and the main scan counter <b>501</b>-<b>34</b>.</p>
+<p id="p-0141" num="0140">In the configuration shown in <figref idref="DRAWINGS">FIG. 20</figref>, pattern recognition is carried out in the embodiment 2 as follows:</p>
+<p id="p-0142" num="0141">First, in control of dividing a given image in the main scan direction, the number of divided image areas assigned to each LPH is set in a div_set [2:0] register (for example, realized by the RAM <b>302</b>-<b>3</b> of the system control unit <b>302</b>, which can be freely set externally) shown in a lower part of <figref idref="DRAWINGS">FIG. 20</figref>. Assuming that a range assigned to each LPH of LPHs <b>501</b>-<b>1</b>, <b>2</b> and <b>3</b> is 7680 dots as shown in <figref idref="DRAWINGS">FIG. 21</figref>, an area assigned to each LPH is divided every number of pixels obtained from 7680/div_set [2:0]. <figref idref="DRAWINGS">FIG. 21</figref> shows an example of division in which div_set [2:0]=4.</p>
+<p id="p-0143" num="0142">As shown in <figref idref="DRAWINGS">FIG. 21</figref>, consequently, a given image includes respective divided areas assigned to the LPH<b>1</b>, respective divided areas assigned to the LPH<b>2</b>, respective divided areas assigned to the LPH<b>3</b>, a left joint area (area <b>13</b>) and a right joint area (area <b>14</b>).</p>
+<p id="p-0144" num="0143">The area recognizing part <b>501</b>-<b>36</b> of the unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> recognizes the above-mentioned joint areas and respective divided image areas as follows: that is, every number of pixels obtained from 7680/div_set [2:0], an area of each one of the LPH<b>1</b>, <b>2</b> and <b>3</b> (<b>503</b>-<b>1</b>, <b>2</b> and <b>3</b>) is recognized from the value of the main scan counter <b>501</b>-<b>34</b>, and thus, is divided. As to a last portion of each of the LPH<b>1</b> <b>503</b>-<b>1</b> and LPH<b>2</b> <b>503</b>-<b>2</b>, each joint portion is recognized with reading a designated corresponding address &#x201c;tunagiL [15:0]&#x201d; and &#x201c;tunagiR [15:0] (see <figref idref="DRAWINGS">FIG. 22</figref>, lower part). Consequently, each one of the respective divided image areas (areas <b>1</b>, <b>2</b>, <b>3</b> and <b>4</b>) assigned to the LPH<b>1</b>, the respective divided image areas (areas <b>5</b>, <b>6</b>, <b>7</b> and <b>8</b>) assigned to the LPH<b>2</b>, the respective divided image areas (areas <b>9</b>, <b>10</b>, <b>11</b> and <b>12</b>) assigned to the LPH<b>3</b>, the left joint area <b>13</b> and the right joint area <b>14</b>, are recognized.</p>
+<p id="p-0145" num="0144">Further, with reference to <figref idref="DRAWINGS">FIGS. 22 and 23</figref>, further details are described now for the joint areas. In the embodiment 2, as shown in <figref idref="DRAWINGS">FIG. 22</figref>, a total of four pixels are recognized as left joint pixels, including a pixel indicated by the register tunagiL [15:0] and subsequent 3 pixels. A total of four pixels are recognized as right joint pixels, including a pixel indicated by the register tunagiR [15:0] and antecedent 3 pixels. Further, as shown in <figref idref="DRAWINGS">FIG. 23</figref>, in the embodiment 2, an area including the left joint pixels and also two pixels each antecedent and subsequent thereto (total 8=4+2+2) is recognized as the left joint area. Similarly, an area including the right joint pixels and further two pixels each antecedent and subsequent thereto is (total 8=4+2+2) recognized as the right joint area.</p>
+<p id="p-0146" num="0145">In <figref idref="DRAWINGS">FIG. 23</figref>, ovals filled with halftone dots represent the left joint pixels or right joint pixels. Pattern <b>1</b> shows a state in which, in an image matrix, two columns of the joint pixels are included at a right end part. Similarly, pattern <b>2</b> shows a state in which, in an image matrix, three columns of the joint pixels are included at a right end part. That is, the pattern <b>2</b> shows a state in which a range of image data extracted as the image matrix is shifted in the main scan direction for one pixel with respect to the pattern <b>1</b>. Similarly, patterns <b>3</b> through <b>8</b> of <figref idref="DRAWINGS">FIG. 23</figref> show a state in which, a range of image data extracted as an image matrix is shifted in the main scan direction for one pixel each in sequence. That is, the patterns <b>1</b> through <b>8</b> of <figref idref="DRAWINGS">FIG. 23</figref> show a state in which, from the state in which a target pixel is located in front of the four columns of joint pixels by two pixels (pattern <b>1</b>), then, the target pixel passes through the four columns of joint pixels (patterns <b>3</b> through <b>6</b>), and, after that, the target pixel has left and goes away from the four columns of joint pixels by second pixels (pattern <b>8</b>).</p>
+<p id="p-0147" num="0146">In the embodiment 2, pattern recognition is carried out as follows:</p>
+<p id="p-0148" num="0147">First, description is made for the divided image areas other than the joint areas. In pattern recognition, the ten matching patterns set by the registers inpat <b>1</b>-<b>1</b> [4:0] through inpat <b>1</b>-<b>49</b> [4:0] shown in <figref idref="DRAWINGS">FIG. 12</figref> are used for a given image matrix, as in the embodiment 1.</p>
+<p id="p-0149" num="0148">As mentioned above, these registers inpat <b>1</b>-<b>1</b> [4:0] through inpat <b>1</b>-<b>49</b> [4:0] correspond to respective pixels (1 through 49) of an image matrix extracted from image data for a page of an image. In the registers, possible ten patterns of an isolated dot of an unauthorized copy protection pattern are set, in each of which ten patterns, a target pixel is located at the center as mentioned above. With the use of the matching patterns, it is possible to correct only the unauthorized copy protection pattern without influencing a given image on which the unauthorized copy protection pattern is superposed.</p>
+<p id="p-0150" num="0149">A determination as to whether the image matrix matches any one of the matching patterns is carried out by a pattern recognizing and output image generating part <b>501</b>-<b>32</b> shown in <figref idref="DRAWINGS">FIG. 20</figref>. From the pattern recognizing and output image generating part <b>501</b>-<b>32</b>, a corrected pixel value according to which of the matching patterns the image matrix has matched is output. That is, image data in which a size of the isolated dot included in an unauthorized copy protection pattern has been corrected are output instead of the original image data. Such replacement of image data may also be referred to as image data conversion. During image data conversion, a main scan counter <b>501</b>-<b>34</b> counts the number of pixels to recognize a target pixel. Thereby, a divided image area to which the target pixel belongs is recognized by the area recognizing part <b>501</b>-<b>36</b>. Then, when a 7&#xd7;7 pixel image matrix in which the target pixel is located at the center as mentioned above agrees with any one of the matching patterns set in the registers input <b>1</b>-<b>1</b> [4:0] through inpat <b>1</b>-<b>49</b> [4:0], a corrected value of the target pixel is output based on a corresponding one of the output registers outpat <b>1</b>-<b>1</b> [4:0] through outpat <b>16</b>-<b>10</b> [4:0] shown in <figref idref="DRAWINGS">FIGS. 13-16</figref>. The output registers outpat <b>1</b>-<b>1</b> [4:0] through outpat <b>16</b>-<b>10</b> [4:0] are set separately for each one of the divided image areas, and also, are set separately for each one of the matching patterns.</p>
+<p id="p-0151" num="0150">When the multi-level mode is used, the thus-provided corrected value of the target pixel is converted into a corresponding gradation value, and is transferred to a corresponding LPH. When the binary mode is used, the above-mentioned pseudo multi-level mode method is used, in which sub-scan twice putting is carried out to write a target pixel twice in the sub-scan direction. In this case, image data may have a maximum of 4 values. Image data has a data structure having a large number of bits for preparing for the multi-level mode. In the binary mode, the lowest two bits thereof are used.</p>
+<p id="p-0152" num="0151">Specifically in the binary mode, according to the pseudo multi-level mode method, as shown in <figref idref="DRAWINGS">FIG. 17</figref>, lower part, when a pixel value obtained from the above-mentioned output register is 00, writing is not carried out for two lines of the sub-scan twice putting. When a pixel value obtained from the above-mentioned output register is 01, writing is carried out only for the first line (i.e., a pixel value of the line is 1), and writing is not carried out (i.e., a pixel value of the line is 0) for the second line of the sub-scan twice putting. When a pixel value obtained from the above-mentioned output register is 10, writing is not carried out for the first line (i.e., a pixel value of the line is 0), and writing is carried out (i.e., a pixel value of the line is 1) for the second line of the sub-scan twice putting. When a pixel value obtained from the above-mentioned output register is 11, writing is carried out for each of the first and second lines (i.e., each of the respective pixel values of the lines is 1) of the sub-scan twice putting. Thus, in the binary mode, a corrected target pixel is controlled, corresponding to two pixels thus obtained from the sub-scan twice putting, to replace an original target pixel. As a result, the target pixel included in an isolated dot of an unauthorized copy protection pattern is corrected, and thus, the unauthorized copy protection pattern is appropriately corrected.</p>
+<p id="p-0153" num="0152">Next, pattern recognition for the joint areas is described. In the embodiment 2, as shown in <figref idref="DRAWINGS">FIG. 22</figref>, the three LPHs <b>503</b>-<b>1</b> through <b>503</b>-<b>3</b> are arranged in a staggered manner. Therefore, when light emitting of the LPH<b>2</b> is controlled, correction is carried out for the joint areas between the LPH<b>1</b> and LPH<b>2</b>, and also, between LPH<b>2</b> and LPH<b>3</b>. First, description is made for the left joint area (area <b>13</b>).</p>
+<p id="p-0154" num="0153">Pattern recognition of the left joint area is carried out as follows: First, as shown in <figref idref="DRAWINGS">FIG. 23</figref>, there are a possible 8 patterns (patterns <b>1</b> through <b>8</b> in <figref idref="DRAWINGS">FIG. 23</figref>) from a state (pattern <b>1</b>) in which a target pixel first enters the left joint area (total 8 [columns]=4 (joint pixels)+2 (antecedent)+2 (subsequent) as mentioned above) through a state (pattern <b>8</b>) in which the target pixel is going to exit the left joint area. The 8 patterns <b>1</b> through <b>8</b> of <figref idref="DRAWINGS">FIG. 23</figref> are different according to where the above-mentioned 4 columns of left joint pixels are located in a 7&#xd7;7 pixel image matrix. For each of the 8 patterns, settings of the corresponding output registers are carried out separately. That is, as shown in <figref idref="DRAWINGS">FIGS. 24A and 24B</figref>, the settings of the corresponding output registers are carried out separately for the one of the ten matching patterns a given image matrix matches and also, separately for the one of the above-mentioned 8 patterns the left joint area is located in the given image matrix. Accordingly, the settings of the corresponding output registers, i.e., settings for a corrected value of a target pixel is a total of 80(=10&#xd7;8). These 80 settings correspond to respective 80 output registers outpat L<b>1</b>-<b>1</b> [4:0] through outpat L<b>8</b>-<b>10</b> [4:0] shown in <figref idref="DRAWINGS">FIGS. 24A</figref>, <b>24</b>B.</p>
+<p id="p-0155" num="0154">The right joint area (area <b>14</b>) has the same situation as that of the left joint area (area <b>13</b>) described above. That is, the settings of the corresponding output registers are carried out separately for the one of the ten matching patterns a given image matrix matches and also, separately for the one of the above-mentioned 8 patterns the right joint area is located in the given image matrix. Accordingly, the settings of the corresponding output registers, i.e., settings for a corrected value of a target pixel is a total of 80(=10&#xd7;8). These 80 settings correspond to respective 80 output registers outpat R<b>1</b>-<b>1</b> [4:0] through outpat R<b>8</b>-<b>10</b> [4:0] shown in <figref idref="DRAWINGS">FIGS. 25A</figref>, <b>25</b>B.</p>
+<p id="p-0156" num="0155">Further, as to unauthorized copy protection pattern correction for the left and right joint areas in the embodiment 2, separately from unauthorized copy protection pattern correction for the entirety of a given image, registers hcopyLset and hcopyRset are provided (which may be realized by the RAM <b>302</b>-<b>3</b> of the system control unit <b>302</b>, and may be freely set externally). With the use of these registers, it is possible to select whether unauthorized copy protection pattern correction is carried out, and whether the binary mode or the multi-level mode is used.</p>
+<p id="p-0157" num="0156">Differences between the binary mode and the multi-level modes in an unauthorized copy protection pattern correction method are the same as those described above with reference to <figref idref="DRAWINGS">FIGS. 18 and 19</figref>. That is, in the binary mode shown in <figref idref="DRAWINGS">FIG. 18</figref>, &#x201c;1&#x201d; is set in each of the above-mentioned registers inpat <b>1</b>-<b>25</b> through <b>1</b>-<b>27</b>, inpat <b>1</b>-<b>32</b> through <b>1</b>-<b>34</b>, and inpat <b>1</b>-<b>32</b> through <b>1</b>-<b>41</b>, while &#x201c;0&#x201d; is set in each of the other registers. In the thus obtained matching pattern, as shown in an upper part of <figref idref="DRAWINGS">FIG. 18</figref>, in a 7&#xd7;7 pixel image matrix, 25th through 27th, 32nd through 34th, 39th through 41st (see <figref idref="DRAWINGS">FIG. 12</figref>, lower part) are black pixels, while the other pixels are white pixels. The same manner holds in a case of <figref idref="DRAWINGS">FIG. 19</figref>. However, in the case of <figref idref="DRAWINGS">FIG. 19</figref>, because the multi-level mode is used, &#x201c;1f&#x201d; is set in each of the above-mentioned registers inpat <b>1</b>-<b>25</b> through <b>1</b>-<b>27</b>, inpat <b>1</b>-<b>32</b> through <b>1</b>-<b>34</b>, and inpat <b>1</b>-<b>32</b> through <b>1</b>-<b>41</b>, while &#x201c;0&#x201d; is set in each of the other registers. Settings in the output registers are carried out separately for the one of the divided image areas (including the respective divided image areas assigned to the LPH<b>1</b> through LPH<b>3</b>, the left joint area and the right joint area) a target pixel belongs to.</p>
+<p id="p-0158" num="0157">Thus, in the embodiment 2 described above, it is possible to control only an unauthorized copy protection pattern superposed on given image data without influencing an image represented by the given image data. Thus, it is possible to effectively control an unauthorized copy protection pattern superposed on given image data, and thus, it is possible that the unauthorized copy protection function positively works well.</p>
+<p id="p-0159" num="0158">According to the embodiment 2, in addition to those of the embodiment 1 described above, the following advantages are provided:</p>
+<p id="p-0160" num="0159">1) When an unauthorized copy protection pattern is superposed on given image data, an A0-size image is divided into divided image areas in consideration of an influence from a position along the photosensitive body and variations in the LPHs. Then, a light emitting amount used for writing each pixel on the photosensitive body is controlled in a separate manner according to which one of the divided image area a target pixel belongs to. Thereby, it is possible to stably print pixels in which a dot diameter of an isolated dot of the unauthorized copy protection pattern is stabilized at any position of the A0 width. Thus, it is possible to improve a recognition rate when the unauthorized copy protection pattern is recognized from an image printed on a printed matter in which the unauthorized copy protection pattern has been superposed on the given image data.</p>
+<p id="p-0161" num="0160">2) When an isolated dot included in an unauthorized copy protection pattern is written on the photosensitive body in the joint areas between the adjacent LPHs, unauthorized copy protection pattern correction is carried out in a manner separate from unauthorized copy protection pattern correction carried out on the other areas. As a result, it is possible to adjust a dot diameter of an isolated dot included in an unauthorized copy protection pattern in the joint areas in a manner separate from unauthorized copy protection pattern correction carried out on the other areas.</p>
+<p id="p-0162" num="0161">3) For an image area designated to each LPH other than the joint areas, the image area is divided in the main scan direction, and unauthorized copy protection pattern correction is carried out in a manner different for each of the respective divided image areas. As a result, it is possible to adjust dot diameters of isolated dots of unauthorized copy protection patterns separately for each one of the divided image areas. These functions are advantageous in particular when an A0-size image is printed.</p>
+<p id="p-0163" num="0162"><figref idref="DRAWINGS">FIG. 28</figref> shows a flow chart illustrating a flow of operation of unauthorized copy protection pattern correction which is carried out by the unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> in the embodiment 1 shown in <figref idref="DRAWINGS">FIG. 8</figref> and so forth, or by the unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> in the embodiment 2 shown in <figref idref="DRAWINGS">FIG. 20</figref> and so forth.</p>
+<p id="p-0164" num="0163">In <figref idref="DRAWINGS">FIG. 28</figref>, in step S<b>1</b>, the image matrix generating part <b>501</b>-<b>32</b> generates an image matrix with the use of image data provided by the line memories <b>501</b>-<b>21</b>. In step S<b>1</b>, the image matrix is extracted such that a target pixel is located at the center of the image matrix. In step S<b>2</b>, the pattern recognizing and output image generating part <b>501</b>-<b>33</b> uses the matching patterns set in the registers, and carries out pattern recognition. When any matching pattern matches the image matrix (YES in step S<b>2</b>), a pixel value of the target pixel is replaced by a corrected value, according to which matching pattern has matched to the image matrix, and which one of the divided image areas and the joint areas the target pixel belongs to. After that, step S<b>4</b> is carried out. It is noted that, when none of the matching patterns has matched the image matrix (NO in step S<b>2</b>), step S<b>3</b> is skipped and step S<b>4</b> is carried out directly.</p>
+<p id="p-0165" num="0164">In step S<b>4</b>, it is determined whether the target pixel is the last one on a line which the target pixel belongs to. When the target pixel is the last one on the line which the target pixel belongs to (YES in step S<b>4</b>), it is determined in step S<b>6</b> whether the target pixel belongs to the last line. When the target pixel belongs to the last line, the processing is finished.</p>
+<p id="p-0166" num="0165">When the target pixel is not the last pixel on the line (NO in step S<b>4</b>), a next pixel is extracted to be a next target pixel, which is the pixel shifted in the main scan direction by one pixel in step S<b>5</b>. After that, for the thus-extracted new target pixel, the above-mentioned processes starting from step S<b>1</b> are carried out. When the target pixel does not belong to the last line (NO in step S<b>6</b>), a first pixel on a next line which is a line shifted in the sub-scan direction by one line is extracted to be a next target pixel in step S<b>7</b>. After that, for the thus-extracted new target pixel, the above-mentioned processes starting from step S<b>1</b> are carried out.</p>
+<p id="p-0167" num="0166">Thus, in the embodiment 1 or 2 of the present invention, an image matrix is extracted, such that a target pixel is located at the center of the image matrix, in sequence. Thereby, the entirety of a page image currently being processed is scanned in the main scan direction and also in the sub-scan direction (steps S<b>5</b>, S<b>7</b>). Then, with the use of the image matrix thus extracted, pattern recognition is carried out (step S<b>2</b>). Thereby, an unauthorized copy protection pattern which is superposed on given image data is detected. Correction is then carried out on the thus-detected unauthorized copy protection pattern in pixel units (step S<b>4</b>).</p>
+<p id="p-0168" num="0167"><figref idref="DRAWINGS">FIGS. 29 and 30</figref> illustrate an example of such correction of an isolated dot of an unauthorized copy protection pattern. <figref idref="DRAWINGS">FIG. 29</figref> illustrates a case where the binary mode is used. <figref idref="DRAWINGS">FIG. 29(</figref><i>a</i>) shows a state in which an isolated dot is printed. The isolated dot is formed by a 3 pixels by 3 pixels, that is, a 3&#xd7;3 pixel dot, as shown. <figref idref="DRAWINGS">FIG. 29(</figref><i>b</i>) shows a case where the thus-printed isolated dot satisfies a required standard for unauthorized copy protection patterns. <figref idref="DRAWINGS">FIG. 29(</figref><i>c</i>) shows a case where the thus-printed isolated dot has a size too large to satisfy the required standard for unauthorized copy protection patterns. It is noted that, in <figref idref="DRAWINGS">FIG. 29(</figref><i>b</i>) or <figref idref="DRAWINGS">FIG. 29(</figref><i>c</i>), different from <figref idref="DRAWINGS">FIG. 29(</figref><i>a</i>), the 3&#xd7;3 pixel isolated dot is expressed as a circle or an oval. This is because an expressing manner which is convenient for explanation is used (the same manner holding hereinafter).</p>
+<p id="p-0169" num="0168"><figref idref="DRAWINGS">FIG. 29(</figref><i>d</i>) and <figref idref="DRAWINGS">FIG. 29(</figref><i>e</i>) illustrate a state in which, in comparison to <figref idref="DRAWINGS">FIG. 29(</figref><i>a</i>), <figref idref="DRAWINGS">FIG. 29(</figref><i>b</i>), the above-mentioned unauthorized copy protection pattern correcting part <b>501</b>-<b>3</b> has carried out correction. That is, <figref idref="DRAWINGS">FIG. 29(</figref><i>d</i>) shows a state in which the above-mentioned pseudo multi-level mode method is used, and thus, each pixel shown in <figref idref="DRAWINGS">FIG. 29(</figref><i>a</i>) is written twice in the sub-scan direction, i.e., the above-mentioned sub-scan twice putting is carried out. Specifically, for example, a top-left pixel of <figref idref="DRAWINGS">FIG. 29(</figref><i>a</i>) is expressed by two pixels arranged in the sub-scan direction (i.e., the vertical direction on the paper), where the two pixels are corrected to be white pixels, as shown in <figref idref="DRAWINGS">FIG. 29(</figref><i>d</i>). Similarly, a top-center pixel of <figref idref="DRAWINGS">FIG. 29(</figref><i>a</i>) is expressed by two pixels arranged in the sub-scan direction, where the two pixels are corrected to one white pixel and one black pixel, as shown in <figref idref="DRAWINGS">FIG. 29(</figref><i>d</i>). Thus, in the correction, all 9 pixels of the original 3&#xd7;3 pixel isolated dot are converted into a total of 18 pixels through the above-mentioned sub-scan twice putting. Also, peripheral pixels are corrected to include white pixels, as shown in <figref idref="DRAWINGS">FIG. 29(</figref><i>a</i>) and <figref idref="DRAWINGS">FIG. 29(</figref><i>d</i>). As a result, as shown in <figref idref="DRAWINGS">FIG. 29(</figref><i>e</i>), the isolated dot is apparently reduced in its size. Thus, the isolated dot included in the unauthorized copy protection pattern is adjusted to satisfy the required standard for unauthorized copy protection patterns.</p>
+<p id="p-0170" num="0169"><figref idref="DRAWINGS">FIG. 30</figref> shows an example of correction of an isolated dot included in an unauthorized copy protection pattern in a case where the multi-level mode is used. <figref idref="DRAWINGS">FIG. 30</figref> is the same as <figref idref="DRAWINGS">FIG. 29</figref> except that whether the multi-level mode or the binary mode is used. <figref idref="DRAWINGS">FIG. 29(</figref><i>a</i>), <b>29</b>(<i>b</i>), <b>29</b>(<i>c</i>) and <b>29</b>(<i>e</i>) correspond to <figref idref="DRAWINGS">FIG. 30(</figref><i>a</i>), <b>30</b>(<i>b</i>), <b>30</b>(<i>c</i>) and <b>30</b>(<i>e</i>), respectively. Duplicate description will be omitted. It is noted that as shown in <figref idref="DRAWINGS">FIG. 30(</figref><i>d</i>), the same as <figref idref="DRAWINGS">FIG. 29(</figref><i>d</i>), the above-mentioned pseudo multi-level mode is used also in this case, through the sub-scan twice putting. As a result, as shown in <figref idref="DRAWINGS">FIG. 30(</figref><i>d</i>), an original 3&#xd7;3 pixel isolated dot shown in <figref idref="DRAWINGS">FIG. 30(</figref><i>a</i>) is converted into a 3&#xd7;6 pixel dot including total 18 pixels. Because the multi-level mode is used, each of the 18 pixels is controlled in its gradation. Specifically, for example, a top-left pixel of <figref idref="DRAWINGS">FIG. 30(</figref><i>a</i>) is expressed by two pixels arranged in the sub-scan direction, where the two pixels are corrected to one white pixel and one gray pixel, as shown in <figref idref="DRAWINGS">FIG. 30(</figref><i>d</i>). Similarly, a top-center pixel of <figref idref="DRAWINGS">FIG. 30(</figref><i>a</i>) is expressed by two pixels arranged in the sub-scan direction, where the two pixels are corrected to one white pixel and one gray pixel, as shown in <figref idref="DRAWINGS">FIG. 30(</figref><i>d</i>). Thus, in the correction, all 9 pixels of the original 3&#xd7;3 pixel isolated dot are converted into a total of 18 pixels through the above-mentioned sub-scan twice putting, and also, peripheral pixels are corrected to include white and gray pixels, as shown in <figref idref="DRAWINGS">FIG. 30(</figref><i>a</i>) and <figref idref="DRAWINGS">FIG. 30(</figref><i>d</i>). As a result, as shown in <figref idref="DRAWINGS">FIG. 30(</figref><i>e</i>), the isolated dot is apparently reduced in its size. Thus, the isolated dot included in the unauthorized copy protection pattern is adjusted to satisfy the required standard for unauthorized copy protection patterns. It is noted that the gray pixel means a pixel having a gradation intermediate between those of a black pixel and a white pixel.</p>
+<p id="p-0171" num="0170">The present invention is not limited to the specifically disclosed embodiments, and variations and modifications may be made without departing from the scope of the present invention.</p>
+<p id="p-0172" num="0171">The present application is based on Japanese priority applications No. 2007-185715 and 2008-179525 filed Jul. 17, 2007 and Jul. 9, 2008, respectively, the entire contents of which are hereby incorporated herein by reference.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. An optical writing apparatus comprising:
+<claim-text>a receiving unit configured to receive an input of a second image data which is formed by superposing an unauthorized copy protection pattern on a first image data;</claim-text>
+<claim-text>an unauthorized copy protection pattern recognition unit configured to recognize the unauthorized copy protection pattern in the second image data;</claim-text>
+<claim-text>a control unit configured to correct image data of the unauthorized copy protection pattern in pixel unit, and control a size of an isolated dot included in the unauthorized copy protection pattern; and</claim-text>
+<claim-text>a writing unit configured to write a corresponding image on a photosensitive body based on the thus-corrected image data, wherein</claim-text>
+<claim-text>the control unit is configured to correct data in the second image data having the unauthorized copy protection pattern recognized by the unauthorized copy protection pattern recognition unit based on predetermined data according to a standard of the unauthorized copy protection pattern and at least characteristics of the writing unit.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The optical writing apparatus as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein:
+<claim-text>said control unit controls to make a correction in a different manner according to a relative position of each pixel included in an isolated dot, for each isolated dot included in the unauthorized copy protection pattern.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The optical writing apparatus as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein:
+<claim-text>the control unit divides an image in a main scan direction, and controls a size of an isolated dot included in the unauthorized copy protection pattern separately for each of divided areas.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The optical writing apparatus as claimed in <claim-ref idref="CLM-00003">claim 3</claim-ref>, further comprising:
+<claim-text>a setting unit configured to externally set widths of the divided image areas obtained from dividing in the main scan direction.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The optical writing apparatus as claimed in <claim-ref idref="CLM-00003">claim 3</claim-ref>, further comprising:
+<claim-text>a setting unit configured to externally set the number of the divided image areas obtained from dividing in the main scan direction.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The optical writing apparatus as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein:
+<claim-text>a plurality of light emitting device arrays, each having a width shorter than a length in a main scan direction of paper to which an image written on the photosensitive body is transferred, are arranged in such a manner that the light emitting device arrays overlap each other along the main scan direction, and the control unit controls a size of an isolated dot included in the unauthorized copy protection pattern for an image area of a joint portion between adjacent ones of the light emitting device arrays in a manner different from that for another area.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The optical writing apparatus as claimed in <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein:
+<claim-text>an image area of an image is divided in the main scan direction in a region other than image areas at joint portions, and</claim-text>
+<claim-text>said control unit controls a size of an isolated dot for each divided image area separately.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The optical writing apparatus as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>a setting unit configured to set externally a reference pixel pattern used for recognizing an isolated dot included in the unauthorized copy protection pattern.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The optical writing apparatus as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+<claim-text>an adjusting unit configured to adjust a manner of correcting each pixel included in an isolated dot included in the unauthorized copy protection pattern.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The optical writing apparatus as claimed in <claim-ref idref="CLM-00009">claim 9</claim-ref>, wherein:
+<claim-text>the adjusting unit comprises an output control unit configured to control output of a light emitting device corresponding to each pixel included in the isolated dot.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The optical writing apparatus as claimed in <claim-ref idref="CLM-00009">claim 9</claim-ref>,
+<claim-text>the adjusting unit comprises a transfer rate control unit configured to control a transfer rate of image data to a light emitting device corresponding to each pixel included in the isolated dot.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The optical writing apparatus as claimed in <claim-ref idref="CLM-00009">claim 9</claim-ref>, comprising:
+<claim-text>an output control unit configured to control output of a light emitting device corresponding to each pixel included in the isolated dot;</claim-text>
+<claim-text>a transfer rate control unit configured to control a transfer rate of image data to a light emitting device corresponding to each pixel included in the isolated dot; and</claim-text>
+<claim-text>a selecting unit configured to select either one of the output control unit and the transfer rate control unit, wherein:</claim-text>
+<claim-text>said selecting unit selects either one of the output control unit and the transfer rate control unit depending on whether a binary mode or a multi-level mode is used; and</claim-text>
+<claim-text>the adjusting is carried out with the use of one of the output control unit and the transfer rate control unit, selected by the selecting unit.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. An image forming apparatus comprising:
+<claim-text>the optical writing apparatus claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>;</claim-text>
+<claim-text>and</claim-text>
+<claim-text>a transferring unit configured to transfer the image written on the photosensitive body by the optical writing apparatus onto paper.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The optical writing apparatus as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein:
+<claim-text>said control unit controls to make a correction in a different manner according to a relative position of each pixel included in an isolated dot, for each isolated dot included in the unauthorized copy protection pattern, and</claim-text>
+<claim-text>the correction is made to the pixel included in the isolated dot in the unauthorized copy protection pattern, said pixel being located at a center of the pixel unit.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. A non-transitory computer readable information recording medium storing a program which, when executed by one or more processors, controlling a writing apparatus configured to write, based on image data, a corresponding image on a photosensitive body, carries out the steps of:
+<claim-text>receiving an input of a second image data which is formed by superposing an unauthorized copy protection pattern on a first image data;</claim-text>
+<claim-text>recognizing an unauthorized copy protection pattern in the second image data;</claim-text>
+<claim-text>correct image data of the unauthorized copy protection pattern in pixel unit, and controlling a size of an isolated dot included in the unauthorized copy protection pattern, wherein data in the second image data having the unauthorized copy protection pattern recognized by an unauthorized copy protection pattern recognition unit is corrected based on predetermined data according to a standard of the unauthorized copy protection pattern and at least characteristics of the writing apparatus.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The non-transitory computer readable information recording medium as claimed in <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein:
+<claim-text>said program controls the writing apparatus to control to make a correction in a different manner according to a relative position of each pixel included in an isolated dot, for each isolated dot included in the unauthorized copy protection pattern.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The non-transitory computer readable information recording medium as claimed in <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein:
+<claim-text>said program controls the writing apparatus to divide an image in a main scan direction, and controls a size of an isolated dot included in the unauthorized copy protection pattern separately for each of divided areas.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The non-transitory computer readable information recording medium as claimed in <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein:
+<claim-text>said program controls the writing apparatus to adjust a manner of correcting each pixel included in an isolated dot included in the unauthorized copy protection pattern.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The non-transitory computer readable information recording medium as claimed in <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein:
+<claim-text>said program controls the writing apparatus to control output of a light emitting device corresponding to each pixel included in the isolated dot.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The non-transitory computer readable information recording medium as claimed in <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein:
+<claim-text>said program controls the writing apparatus to control a transfer rate of image data to a light emitting device corresponding to each pixel included in the isolated dot.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text>21. The non-transitory computer readable information recording medium as claimed in <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein:
+<claim-text>said program controls the writing apparatus to carry out the steps of:</claim-text>
+<claim-text>a) controlling output of a light emitting device corresponding to each pixel included in the isolated dot;</claim-text>
+<claim-text>b) controlling a transfer rate of image data to a light emitting device corresponding to each pixel included in the isolated dot; and</claim-text>
+<claim-text>c) selecting either one of said step a) and said step b), wherein:</claim-text>
+<claim-text>said step c) selects either one of said step a) and said step b) depending on whether a binary mode or a multi-level mode is used; and</claim-text>
+<claim-text>said program controls the writing apparatus to carry out the step of adjusting a manner of correcting each pixel included in an isolated dot included in the unauthorized copy protection pattern, with the use of one of said step a) and said step b), selected by said step c).</claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

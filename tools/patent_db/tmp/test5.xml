@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US08927272-20150106.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20141219" date-publ="20150106">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08927272</doc-number>
+<kind>B2</kind>
+<date>20150106</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13986029</doc-number>
+<date>20130325</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>96</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20100101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>5</main-group>
+<subgroup>073</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>01</class>
+<subclass>L</subclass>
+<main-group>3</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>5</main-group>
+<subgroup>0604</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>01</class>
+<subclass>L</subclass>
+<main-group>3</main-group>
+<subgroup>021</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150106</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification>435325</main-classification>
+<further-classification>4353091</further-classification>
+<further-classification>4352873</further-classification>
+</classification-national>
+<invention-title id="d2e53">Method and device for performing biopsies on a vesicular object</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>8357103</doc-number>
+<kind>B2</kind>
+<name>Mark</name>
+<date>20130100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>8376957</doc-number>
+<kind>B2</kind>
+<name>Hibner</name>
+<date>20130200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>8394033</doc-number>
+<kind>B2</kind>
+<name>DiCarlo</name>
+<date>20130300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>1</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>None</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>2</number-of-drawing-sheets>
+<number-of-figures>2</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140287493</doc-number>
+<kind>A1</kind>
+<date>20140925</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Taylor</last-name>
+<first-name>Paul J.</first-name>
+<address>
+<city>Bozeman</city>
+<state>MT</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Taylor</last-name>
+<first-name>Paul J.</first-name>
+<address>
+<city>Bozeman</city>
+<state>MT</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+<examiners>
+<primary-examiner>
+<last-name>Davis</last-name>
+<first-name>Ruth</first-name>
+<department>1651</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Cordas</last-name>
+<first-name>Emily</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A method for removing material from a vesicular object by securing the object, penetrating the object with a pipette, such pipette having a sealed distal tip and an aperture, advancing said pipette into the object in such a manner as to place the aperture directly adjacent to the material to be removed from the object, applying vacuum inside the pipette thereby drawing the material to be removed from the object into the pipette, and removing the pipette from the object in such a manner as to cut or otherwise separate the material in the pipette from the object thereby leaving the material removed from the object in the pipette while leaving the object undamaged.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="154.52mm" wi="234.95mm" file="US08927272-20150106-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="234.95mm" wi="166.71mm" orientation="landscape" file="US08927272-20150106-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="212.51mm" wi="154.18mm" orientation="landscape" file="US08927272-20150106-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">This application claims the benefit of PPA Ser. No. 61/686,025 filed Mar. 28, 2012 by the present inventor, which is incorporated by reference.</p>
+<heading id="h-0002" level="1">FEDERALLY SPONSORED RESEARCH</heading>
+<p id="p-0003" num="0002">This invention was not made under a government contract and the government has no rights in it.</p>
+<heading id="h-0003" level="1">SEQUENCE LISTING OR PROGRAM</heading>
+<p id="p-0004" num="0003">Not applicable.</p>
+<heading id="h-0004" level="1">BACKGROUND&#x2014;PRIOR ART</heading>
+<p id="p-0005" num="0004">The following is a tabulation of some prior art that presently appears relevant:</p>
+<heading id="h-0005" level="1">U.S. Patents</heading>
+<p id="p-0006" num="0005">
+<tables id="TABLE-US-00001" num="00001">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="1" colwidth="14pt" align="left"/>
+<colspec colname="2" colwidth="77pt" align="left"/>
+<colspec colname="3" colwidth="70pt" align="left"/>
+<colspec colname="4" colwidth="56pt" align="left"/>
+<thead>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+<row>
+<entry/>
+<entry>Pat. No.</entry>
+<entry>ISSUE DATE</entry>
+<entry>PATENTEE</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry/>
+<entry>8,394,033</entry>
+<entry>July 2006</entry>
+<entry>DiCarlo</entry>
+</row>
+<row>
+<entry/>
+<entry>8,376,957</entry>
+<entry>February 2013</entry>
+<entry>Hibner</entry>
+</row>
+<row>
+<entry/>
+<entry>20060200040</entry>
+<entry>September 2006</entry>
+<entry>Weikel</entry>
+</row>
+<row>
+<entry/>
+<entry>8,357,103</entry>
+<entry>January 2013</entry>
+<entry>Mark</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<heading id="h-0006" level="1">BACKGROUND</heading>
+<p id="p-0007" num="0006">The present method and device relates to a method and device for removing tissue or other cellular material (cellular material) from a vesicular object having a size typically in the neighborhood of 100-300 microns. This method and device has particular application for removing cellular material from mammalian embryos at the hatched blastocyst stage of development. This has not been possible with previous devices which have been mostly designed for biopsies of a much larger nature.</p>
+<p id="p-0008" num="0007">Removing material from the hatched blastocyst has been difficult because the blastocysts are spherical vesicular structures consisting of a thin double layer of living cells surrounding a relatively large central cavity that is filled with an aqueous fluid. The difficulty, and the failure of the prior art, arises because of the physical characteristics of the envelope of these living cells which is flimsy but resistant to puncture. For example, attempts to puncture a hatched blastocyst often simply compress the envelope of the embryo without puncturing it. With the present device there is no compression at all.</p>
+<heading id="h-0007" level="1">ADVANTAGES OF THE EMBODIMENT</heading>
+<p id="p-0009" num="0008">The present method and device overcomes the above-described difficulties by providing a method and device wherein the object is firmly held, for example, by using a vacuum as described in application Ser. No. 13/374,195, the object is then pierced by the probe. An aperture, or biopsy port, on one side of the probe is then aligned with the material to be removed. A vacuum applied to the interior of the probe draws the cellular material into the probe itself for subsequent removal from the vesicular object.</p>
+<p id="p-0010" num="0009">An additional advantage lies in fact the present method and device leaves the object unharmed after the biopsy. As an example only, the puncture wound made in the surface of an expanding or hatched blastocyst by the biopsy probe will involve less than 0.01% of the surface. In a living embryo (blastocyst), this wound is surrounded by rapidly dividing cells on all sides. As soon as the probe is withdrawn, the wound closes tightly enough to prevent leakage of fluid into or out of the blastocoel space and will heal closed completely within a few hours.</p>
+<p id="p-0011" num="0010">A yet additional advantage is that smaller biopsy probes, down to 4 um outside diameter (OD) near the tip end, with biopsy ports at least as small as 2 um diameter, can be made at present. This is small enough to be used on certain large individual cells, with the possibility to remove and capture cellular components such as the nucleus or mitochondria. Smaller probes, and biopsy ports are possible.</p>
+<heading id="h-0008" level="1">SUMMARY, CONCLUSION, RAMIFICATIONS, AND SCOPE</heading>
+<p id="p-0012" num="0011">The above-described method and device punctures and allows removal of cellular material from a very specific location on a vesicular object. For example, an identifiable portion of the surface of a hatched blastocyst is the Inner Cell Mass, consisting of embryonic stem cells. This device has the potential to harvest embryonic stem cells without serious damage to the embryo.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0009" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0013" num="0012">In order that the method and device may be clearly understood and readily carried into effect, a preferred embodiment of the invention will now be described, by way of example only, with reference to the accompanying drawings wherein:</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 1</figref> is a drawing of a probe 20 microns in diameter at the location of the aperture, which is specified between 9 and 15 microns diameter.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 2</figref>, is a drawing representing cellular material from the object's envelope of cells being drawn into the biopsy probe through the port.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0010" level="1">REFERENCE NUMERALS</heading>
+<p id="h-0011" num="0000"><figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0016" num="0015"><b>1</b>. Aperture.</p>
+<p id="p-0017" num="0016"><b>2</b>. Sealed distal tip.</p>
+<p id="p-0018" num="0017"><b>3</b>. Pipette's hollow center.</p>
+<p id="h-0012" num="0000"><figref idref="DRAWINGS">FIG. 2</figref>.</p>
+<p id="p-0019" num="0018"><b>4</b>. Envelope of cells.</p>
+<p id="p-0020" num="0019"><b>5</b>. Blastocoel fluid.</p>
+<p id="p-0021" num="0020"><b>6</b>. Biopsy sample.</p>
+<heading id="h-0013" level="1">DETAILED DESCRIPTION OF AN EMBODIMENT</heading>
+<p id="h-0014" num="0000">Elements</p>
+<p id="p-0022" num="0021">A device for performing biopsies on a vesicular object is shown in <figref idref="DRAWINGS">FIGS. 1</figref>. and <b>2</b>. In this embodiment the device includes a hollow pipette with a sealed tip at its distal end. Such pipette having an aperture (<b>1</b>) through the pipette wall (biopsy port) located only a few microns, typically 40 to 70 um, proximally from the sealed pipette's distal tip. (<b>2</b>). More specifically, the biopsy port is located on one sidewall of the pipette, at a right angle to the pipette's long axis, communicating with the pipette's hollow center and is created, as explained in more detail below, without damage to the pipette's far wall.</p>
+<p id="p-0023" num="0022">In the present embodiment, the diameter of the biopsy port is approximately one-half of the outside diameter of the pipette and the port is created in such a way as to leave the edges of the port sharp and capable of cutting or shearing cellular material from a target.</p>
+<p id="p-0024" num="0023">Such pipette, with the sealed distal tip and biopsy port, being referred to herein as a biopsy probe.</p>
+<p id="h-0015" num="0000">Method of Manufacture</p>
+<p id="p-0025" num="0024">A standard method of manufacture for the biopsy probe is first pulling a standard or thin-wall 1.5 mm OD (outside diameter) glass tube to a long taper, then scoring and breaking the thin glass tip at the desired diameter. This diameter has been, to date, typically between 8 um and 25 um OD. Then, on a microforge at relatively low temperature, just hot enough to melt the glass, the tip end is touched to the molten glass bead, which seals it and draws the molten tip into a sharp spike.</p>
+<p id="p-0026" num="0025">The aperture, or biopsy port, on the formed probe is then drilled from the side using an appropriate device, for example only, a femtosecond laser. The laser must be tuned to make a clean hole of the desired diameter through only the near sidewall of the glass tube, without damage to the inside of the far sidewall. The position of the port is determined by the diameter of the probe near the tip. For example only, if the diameter is &#x201c;x&#x201d;, the port diameter is &#x201c;0.5x&#x201d; and the port is positioned &#x201c;5x&#x201d; to &#x201c;7x&#x201d; back from the sharp, and sealed, distal tip. This allows the biopsy port to be positioned (for use on an early embryo for example) at the level of the envelope of living cells when the sharp tip end is still inside the blastocoel space. The intended use of the probe, e.g. type and stage of development of an embryo to be biopsied and physical size of the cells to be captured, determines the specific position and size of the biopsy port.</p>
+<p id="h-0016" num="0000">Operation</p>
+<p id="p-0027" num="0026">A standard operation of the probe would include the following steps. The target is captured and held and the sharp and sealed distal tip of the biopsy probe is advanced, possibly as described in application Ser. No. 13/374,195. After penetrating a specific area of the object's surface, the biopsy probe's sealed distal tip (<b>2</b>) is advanced into the central space of the target (<b>5</b>) until the biopsy port (<b>1</b>) is aligned with the hole in the surface of the target made by the biopsy probe's sealed distal tip, or aligned in close proximity to the material to be removed from the interior of the object. A vacuum is then applied inside the biopsy probe and material is drawn into the biopsy probe through the port. (<b>6</b>) As the biopsy probe is withdrawn from the object, if the material is connected to the object, the material in the biopsy port is sheared, cut, or torn, away from the object leaving the object undamaged.</p>
+<p id="p-0028" num="0027">While the above description contains many specificities, these should not be construed as limitations on the scope of any embodiment, but as examples of various embodiments thereof. Many other ramifications and variations are possible within the teachings of the various embodiments without departing from the scope of the method and device disclosed above.</p>
+<p id="p-0029" num="0028">Thus the scope should be determined by the appended claims and their legal equivalents, and not by the examples given.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>I claim:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A method for removing material from a vesicular object by:
+<claim-text>a) securing the object in such a manner as to allow a pipette to penetrate the object without damaging the object;</claim-text>
+<claim-text>b) such pipette:
+<claim-text>i) being a hollow cannula;</claim-text>
+<claim-text>ii) having a sealed distal tip capable of penetrating the object;</claim-text>
+<claim-text>iii) having one aperture located in the side of the pipette near the sealed distal tip, the aperture being created in such a manner as to leave the aperture edges sharp and capable of cutting, or otherwise removing, material from the object; and</claim-text>
+<claim-text>iv) being capable of aspiration of material from the object through the aperture via vacuum inside the pipette;</claim-text>
+</claim-text>
+<claim-text>c) advancing said pipette into the object in such a manner as to place the aperture directly adjacent to the material to be removed from the object;</claim-text>
+<claim-text>d) applying vacuum inside the pipette thereby drawing the material to be removed from the object into the pipette;</claim-text>
+<claim-text>e) removing the pipette from the object, and in those instances where the material to be removed is attached in any manner to the object, removing the pipette in such a manner as to cut or otherwise separate the material in the pipette from the object;</claim-text>
+</claim-text>
+<claim-text>thereby leaving the material removed from the object inside the pipette while leaving the object undamaged.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>
