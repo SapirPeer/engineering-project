@@ -29,32 +29,37 @@ class IndexFiles:
         self.errors = []
         self._initialize()
 
-    def index(self, csv_path):
-        patents = self._read_csv(csv_path)
-        print("\rProcessed {}/{} patents".format(0, len(patents)), end='', flush=True)
-        
-        for i, patent in enumerate(patents, 1):
+    def index(self, csvs_path):
 
-            pid, date, title, author, icn, org, acn, abstract, description = patent[1:]
+        all_csvs = [x for x in os.listdir(csvs_path) if x.endswith('csv')]
 
-            try:
-                doc = Document()
-                doc.add(Field('id', pid, self._ft1))
-                doc.add(Field('date', date, self._ft1))
-                doc.add(Field('title', title, self._ft1))
-                doc.add(Field('author', author, self._ft1))
-                doc.add(Field('icn', icn, self._ft1))
-                doc.add(Field('organization', org, self._ft1))
-                doc.add(Field('acn', acn, self._ft1))
-                doc.add(Field('abstract', abstract, self._ft2))
-                doc.add(Field('description', description, self._ft2))
+        for i, csv_file in enumerate(all_csvs, 1):
+            print("\nProcessing CSV #{}".format(i), flush=True)
 
-                self._writer.addDocument(doc)
+            patents = self._read_csv(csv_file)
+            print("\rProcessed {}/{} patents in file".format(0, len(patents)), end='', flush=True)
+            for j, patent in enumerate(patents, 1):
 
-            except Exception as e:
-                print("Failed to index '{}': {}".format(path, e))
-            print("\rProcessed {}/{} patents".format(i, len(patents)), end='', flush=True)
-        print()
+                pid, date, title, author, icn, org, acn, abstract, description = patent
+
+                try:
+                    doc = Document()
+                    doc.add(Field('id', pid, self._ft1))
+                    doc.add(Field('date', date, self._ft1))
+                    doc.add(Field('title', title, self._ft1))
+                    doc.add(Field('author', author, self._ft1))
+                    doc.add(Field('icn', icn, self._ft1))
+                    doc.add(Field('organization', org, self._ft1))
+                    doc.add(Field('acn', acn, self._ft1))
+                    doc.add(Field('abstract', abstract, self._ft2))
+                    doc.add(Field('description', description, self._ft2))
+
+                    self._writer.addDocument(doc)
+
+                except Exception as e:
+                    print("\nFailed to index '{}': {}\n".format(path, e))
+                print("\rProcessed {}/{} patents in file".format(j, len(patents)), end='', flush=True)
+            print()
         self._commit()
         return self
 
@@ -103,7 +108,7 @@ class IndexFiles:
 if __name__ == '__main__':
 
     INDEX_DIR = "patent.index"
-    CSV_FILE = "output.csv"
+    CSV_DIR = "patent_db/csv_db"
 
     lucene.initVM(vmargs=['-Djava.awt.headless=true'])
     print('lucene {}'.format(lucene.VERSION))
@@ -111,7 +116,7 @@ if __name__ == '__main__':
 
     try:
         index = IndexFiles(INDEX_DIR, StandardAnalyzer())
-        index.index(CSV_FILE)
+        index.index(CSV_DIR)
         print(time.time() - start)
 
     except Exception as e:

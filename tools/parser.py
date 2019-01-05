@@ -3,45 +3,11 @@ import io
 from lxml import etree
 import os
 
-PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/finalproject/tools/patent_db/tmp"
-
-
-class FileHandler():
-    def __init__(self, zfile):
-        self.zfile = zfile
-
-    def readline(self):
-        return self.zfile.readline()
-
-    def listXmls(self):
-        output = io.StringIO()
-        line = self.readline()
-        output.write(line)
-        line = self.readline()
-        while line is not '':
-            if '<?xml version="1.0" encoding="UTF-8"?>' in line:
-                line = line.replace('<?xml version="1.0" encoding="UTF-8"?>', '')
-                output.write(line)
-                output.seek(0)
-                yield output
-                output = io.StringIO()
-                output.write('<?xml version="1.0" encoding="UTF-8"?>')
-            elif '<?xml version="1.0"?>' in line:
-                line = line.replace('<?xml version="1.0"?>', '')
-                output.write(line)
-                output.seek(0)
-                yield output
-                output = io.StringIO()
-                output.write('<?xml version="1.0"?>')
-            else:
-                output.write(line)
-            try:
-                line = self.readline()
-            except StopIteration:
-                break
-        output.seek(0)
-        yield output
-
+PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/finalproject/tools/patent_db/xml_db_files"
+HEADER = [
+    'id', 'date', 'patent title', 'author-name', 'ICN', 'organization-name',
+    'ACN', 'patent abstract', 'patent description',
+]
 
 class SimpleXMLHandler(object):
     def __init__(self):
@@ -230,38 +196,76 @@ def create_fields(result, file_name):
     return result
 
 
-def parse_file(folder_in, file_in):
+def parse_file(file):
 
-    file = folder_in + '/' + file_in
-    if os.path.isfile(file):
-        f = open(file, 'rU')
-        parser = etree.XMLParser(target=SimpleXMLHandler(), resolve_entities=False)
-        result, fields_dict = etree.parse(f, parser)
+    file = file.encode('utf-8')
+    parser = etree.XMLParser(target=SimpleXMLHandler(), resolve_entities=False)
+    result, fields_dict = etree.fromstring(file, parser)
 
-        fields_dict['file name'] = os.path.basename(file)
-        return fields_dict
+    return fields_dict
 
-        file_name = 'File name: ' + os.path.basename(file)
-        return create_fields(result, file_name)
+
+def write_to_csv(all_files, csv_name, start):
+    csv_file_name = csv_name + str(start) + ".csv"
+    with open(csv_file_name, 'w', newline='', encoding='utf8') as fs:
+        writer = csv.writer(fs)
+
+        for file in all_files:
+            fields_dict = parse_file(file)
+            row = [fields_dict[k] if k in fields_dict else '' for k in HEADER]
+            writer.writerow(row)
+
+
+def check_patent(buffer):
+    counter = 0
+    for line in buffer:
+        if line.startswith('<?xml version="1.0" encoding="UTF-8"?>'):
+            counter += 1
+            if counter > 1:
+                return False
+    return True
+
+
+def read_file(name, folder_in, start = 0):
+    file_name = folder_in + '/' + name
+    buffer = []
+    all_files = []
+    i = 0
+
+    print("\nReading large file...")
+    print("\rProcessed {} entries".format(0), end='', flush=True)
+
+    with open(file_name, 'r') as file:
+        for line in file:
+            buffer.append(line)
+            if '</us-patent-grant>' in line:
+                if check_patent(buffer):
+                    new_xml = ''.join(buffer)
+                    all_files.append(new_xml)
+                    i += 1
+
+                    # to create a new csv every 1000 patents
+                    if len(all_files) == 1000:
+                        write_to_csv(all_files, "patent_db/csv_db/outputs", start)
+                        all_files = []
+                        start += 1
+                        i = 0
+                buffer = []
+            print("\rProcessed {} entries".format(i), end='', flush=True)
+
+        # in case of the lasts patents in the file
+        if len(all_files) < 1000:
+            write_to_csv(all_files, "patent_db/csv_db/outputs", start)
+            start += 1
+
+    return start
 
 
 def main():
     folder_in = PATH
-    # out_file = 'names-in-patents.txt'
-
-    header = [
-        'file name', 'id', 'date', 'patent title', 'author-name', 'ICN', 'organization-name',
-        'ACN', 'patent abstract', 'patent description',
-    ]
-
-    with open('output.csv', 'w', newline='') as fs:
-        writer = csv.writer(fs)
-
-        for filename in os.listdir(folder_in):
-            fields_dict = parse_file(folder_in, filename)
-            row = [fields_dict[k] if k in fields_dict else '' for k in header]
-            writer.writerow(row)
-
+    start = 0
+    for filename in os.listdir(folder_in):
+        start = read_file(filename, folder_in, start)
 
 
 def usage():
@@ -270,5 +274,3 @@ def usage():
 
 if __name__ == "__main__":
     main()
-
-

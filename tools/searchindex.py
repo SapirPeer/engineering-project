@@ -14,11 +14,7 @@ from org.apache.pylucene.search.similarities import PythonSimilarity
 
 DEF_TOPN = 10
 
-
-
-
 class SearchFiles:
-
 
     def __init__(self, path, analyzer, topn=DEF_TOPN):
 
@@ -28,16 +24,12 @@ class SearchFiles:
         self._store = SimpleFSDirectory(Paths.get(os.path.abspath(self.path)))
         self._searcher = IndexSearcher(DirectoryReader.open(self._store))
 
-
     def search(self, query):
 
         query = QueryParser('content', self._analyzer).parse(query)
         docs = self._searcher.search(query, self.topn).scoreDocs
 
         return docs
-
-
-
 
 if __name__ == '__main__':
 
