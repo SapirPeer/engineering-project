@@ -6,7 +6,7 @@ import os
 PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/finalproject/tools/patent_db/xml_db_files"
 HEADER = [
     'id', 'date', 'patent title', 'author-name', 'ICN', 'organization-name',
-    'ACN', 'patent abstract', 'patent description',
+    'ACN', 'patent abstract', 'patent description', 'uid'
 ]
 
 class SimpleXMLHandler(object):
@@ -178,7 +178,7 @@ class SimpleXMLHandler(object):
 
 def create_fields(result, file_name):
     fields = ['ID', 'date', 'patent title', 'author-name', 'ICN', 'organization-name',
-              'ACN', 'patent abstract', 'patent description']
+              'ACN', 'patent abstract', 'patent description', 'uid']
     field_counter = 1
 
     if len(fields) == len(result):
@@ -201,6 +201,7 @@ def parse_file(file):
     file = file.encode('utf-8')
     parser = etree.XMLParser(target=SimpleXMLHandler(), resolve_entities=False)
     result, fields_dict = etree.fromstring(file, parser)
+    fields_dict['uid'] = fields_dict['ICN'] + fields_dict['id'][1:]
 
     return fields_dict
 
@@ -246,7 +247,7 @@ def read_file(name, folder_in, start = 0):
 
                     # to create a new csv every 1000 patents
                     if len(all_files) == 1000:
-                        write_to_csv(all_files, "patent_db/csv_db/outputs", start)
+                        write_to_csv(all_files, "patent_db/csv_db/output", start)
                         all_files = []
                         start += 1
                         i = 0
@@ -255,7 +256,7 @@ def read_file(name, folder_in, start = 0):
 
         # in case of the lasts patents in the file
         if len(all_files) < 1000:
-            write_to_csv(all_files, "patent_db/csv_db/outputs", start)
+            write_to_csv(all_files, "patent_db/csv_db/output", start)
             start += 1
 
     return start

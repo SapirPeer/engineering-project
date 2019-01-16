@@ -3,10 +3,10 @@ import os
 import lucene
 from java.nio.file import Paths
 from org.apache.lucene.analysis.standard import StandardAnalyzer
-from org.apache.lucene.index import DirectoryReader
+from org.apache.lucene.index import DirectoryReader, Term
 from org.apache.lucene.queryparser.classic import QueryParser
 from org.apache.lucene.store import SimpleFSDirectory
-from org.apache.lucene.search import IndexSearcher
+from org.apache.lucene.search import IndexSearcher, BooleanQuery, BooleanClause, TermQuery
 
 DEF_TOPN = 10
 
@@ -30,8 +30,17 @@ class SearchIndex:
         vm_env = lucene.getVMEnv()
         vm_env.attachCurrentThread()
 
-        query = QueryParser('description', self._analyzer).parse(query)
-        docs = self._searcher.search(query, topn).scoreDocs
+        query_description = QueryParser('description', self._analyzer).parse(query)
+        query_title = QueryParser('title', self._analyzer).parse(query)
+        # query_id = QueryParser('uid', self._analyzer).parse(query)
+        query_id = TermQuery(Term('uid', query))
+
+        bool_query = BooleanQuery.Builder()
+        bool_query.add(query_description, BooleanClause.Occur.SHOULD)
+        bool_query.add(query_title, BooleanClause.Occur.SHOULD)
+        bool_query.add(query_id, BooleanClause.Occur.SHOULD)
+
+        docs = self._searcher.search(bool_query.build(), topn).scoreDocs
 
         result = []
         for doc in docs:
@@ -40,6 +49,7 @@ class SearchIndex:
                 'id': doc.get('id'), 'date': doc.get('date'), 'title': doc.get('title'),
                 'author': doc.get('author'), 'icn': doc.get('icn'), 'organization': doc.get('organization'),
                 'acn': doc.get('acn'), 'abstract': doc.get('abstract'), 'description': doc.get('description'),
+                'uid': doc.get('uid')
             })
         return result
 

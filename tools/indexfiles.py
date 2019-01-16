@@ -1,6 +1,7 @@
+
 import os
+import sys
 import csv
-from glob import glob
 import threading
 import time
 import lucene
@@ -10,6 +11,21 @@ from org.apache.lucene.analysis.standard import StandardAnalyzer
 from org.apache.lucene.document import Document, Field, FieldType
 from org.apache.lucene.index import FieldInfo, IndexWriter, IndexWriterConfig, IndexOptions
 from org.apache.lucene.store import SimpleFSDirectory
+
+
+maxInt = sys.maxsize
+decrement = True
+
+while decrement:
+    # decrease the maxInt value by factor 10
+    # as long as the OverflowError occurs.
+    decrement = False
+    try:
+        csv.field_size_limit(maxInt)
+    except OverflowError:
+        maxInt = int(maxInt/10)
+        decrement = True
+
 
 class Ticker:
     def __init__(self):
@@ -36,11 +52,11 @@ class IndexFiles:
         for i, csv_file in enumerate(all_csvs, 1):
             print("\nProcessing CSV #{}".format(i), flush=True)
 
-            patents = self._read_csv(csv_file)
+            patents = self._read_csv(csvs_path + "/" + csv_file)
             print("\rProcessed {}/{} patents in file".format(0, len(patents)), end='', flush=True)
             for j, patent in enumerate(patents, 1):
 
-                pid, date, title, author, icn, org, acn, abstract, description = patent
+                pid, date, title, author, icn, org, acn, abstract, description, uid = patent
 
                 try:
                     doc = Document()
@@ -53,6 +69,7 @@ class IndexFiles:
                     doc.add(Field('acn', acn, self._ft1))
                     doc.add(Field('abstract', abstract, self._ft2))
                     doc.add(Field('description', description, self._ft2))
+                    doc.add(Field('uid', uid, self._ft1))
 
                     self._writer.addDocument(doc)
 
