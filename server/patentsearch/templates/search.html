@@ -3,9 +3,19 @@
 <html>
 <!-- <link rel="stylesheet" href="C:\Users\sapir\Desktop\sapir\Engineering project\demo\engProj.css"> -->
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <!-- <script type="text/javascript" src="C:\Users\sapir\Desktop\sapir\Engineering project\searchEngine.js"></script> -->
 
 <style>
+
+    body{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    h3 {
+    color: purple;
+}
+
     .searchBox{
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
@@ -67,24 +77,12 @@
     .small{
         margin-top:-416px;
     }
+    div {
+    width: 880px;
+    margin-bottom: 69px;
+}
 </style>
 
-<script>
-    /*Get search string from the website and parse it*/
-    function getSearchString() {
-        var searchString = document.getElementById('searchInput').value;
-        //parse the search strign
-    }
-            
-    function changeDisplay(){
-	console.log("jjj");
-       // document.getElementById('searchEngine').classList.remove= "pre-search";
-	document.getElementById('searchEngine').classList.value= "post-search";
-        document.getElementById('query').classList.add = "search-box_post-search";
-	document.getElementById('results-container').style.display = 'block';
-}
-    
-</script>
 
 <head>
 <div class="engProj pre-search" id="searchEngine"> 
@@ -95,29 +93,71 @@
     <div class="searchDirective">
         <form action="" method="get">
             <input class="searchBox" id="query" name="query" type="text" placeholder="Search...">
-            <input type="submit" class="buttonClass" value="Search" onclick="changeDisplay()">
+            <input id="search-button" type="submit" class="buttonClass" value="Search" onclick="changeDisplay()">
         </form>
 
-        {% if result %}
+{#        {% if result %}#}
         <div class="results-container" id="results-container">
             <p class="result-counter"> About {{result|length}} results </p>
             {% for doc in result %}
 
                 <div>
                     <h3>[{{ doc.id }}] {{ doc.title }}</h3>
+                    <a color="black" target ="_blank" href=https://patents.google.com/patent/{{doc.uid}}>Download PDF</a><br>
                     [{{ doc.date }}] {{ doc.author }} -- {{ doc.organization }}<br>
                     {{ doc.icn }} -- {{ doc.acn }}<br>
-                    <font color="blue">Abstract:</font><br>
+                    <font border-bottom="2px solid black" color="black">Abstract:</font><br>
                     {{ doc.abstract }}<br>
-                    <font color="blue">Description:</font><br>
-                    {{ doc.description }}<br>
+{#                    <font color="blue">Description:</font><br>#}
+{#                    {{ doc.description }}<br>#}
                 </div>
 
             {% endfor %}
         </div>
-        {% endif %}
+{#        {% endif %}#}
 
     </div>
+<script type="text/javascript">
+
+        window.onload = function () {
+            let search = localStorage.getItem('search');
+            if(search) {
+                $("#searchEngine").removeClass('pre-search');
+                $("#searchEngine").addClass('post-search');
+                $("#query").addClass('search-box_post-search');
+            }
+        }
+    /*Get search string from the website and parse it*/
+    function getSearchString() {
+        var searchString = document.getElementById('searchInput').value;
+        //parse the search strign
+    }
+
+    $('#search-button').click(function(e){
+        console.log('naomi')
+        {#e.preventDefault();#}
+    // Code goes here
+});
+
+    function changeDisplay(){
+        $("#searchEngine").removeClass('pre-search');
+        $("#searchEngine").addClass('post-search');
+        $("#query").addClass('search-box_post-search');
+        localStorage.setItem("search",true)
+
+         {#document.getElementById('results-container').style.display = 'block';#}
+        {#deded#}
+
+
+       // document.getElementById('searchEngine').classList.remove= "pre-search";
+
+	    {#document.getElementById('searchEngine').remove.value= "post-search";#}
+        {#document.getElementById('query').classList.add = "search-box_post-search";#}
+	    {#document.getElementById('results-container').style.display = 'block';#}
+}
+
+</script>
+
 
 </body>
 </div>
