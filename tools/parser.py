@@ -2,12 +2,16 @@ import csv
 import io
 from lxml import etree
 import os
+import re
 
 PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/finalproject/tools/patent_db/xml_db_files"
 HEADER = [
     'id', 'date', 'patent title', 'author-name', 'ICN', 'organization-name',
     'ACN', 'patent abstract', 'patent description', 'uid'
 ]
+
+DATA_FORM_ID = re.compile(r'([A-Z]*)(\d+)')
+
 
 class SimpleXMLHandler(object):
     def __init__(self):
@@ -201,7 +205,8 @@ def parse_file(file):
     file = file.encode('utf-8')
     parser = etree.XMLParser(target=SimpleXMLHandler(), resolve_entities=False)
     result, fields_dict = etree.fromstring(file, parser)
-    fields_dict['uid'] = fields_dict['ICN'] + fields_dict['id'][1:]
+    match_letters = DATA_FORM_ID.match(fields_dict['id'])
+    fields_dict['uid'] = fields_dict['ICN'] + match_letters.group(1) + match_letters.group(2)[1:]
 
     return fields_dict
 
@@ -210,9 +215,14 @@ def write_to_csv(all_files, csv_name, start):
     csv_file_name = csv_name + str(start) + ".csv"
     with open(csv_file_name, 'w', newline='', encoding='utf8') as fs:
         writer = csv.writer(fs)
-
         for file in all_files:
             fields_dict = parse_file(file)
+            try:
+                if fields_dict["ICN"] != "US" or fields_dict["ACN"] != "US":
+                    continue
+            except:
+                print("\n fields_dict do not contain ICN or ACN")
+
             row = [fields_dict[k] if k in fields_dict else '' for k in HEADER]
             writer.writerow(row)
 
@@ -266,6 +276,7 @@ def main():
     folder_in = PATH
     start = 0
     for filename in os.listdir(folder_in):
+        print("====== file name " + str(filename))
         start = read_file(filename, folder_in, start)
 
 
