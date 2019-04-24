@@ -55,8 +55,8 @@
     */  display: inline-block;
     }
     .search-box_post-search{
-        margin-bottom=34px;
-        width = 535px;
+        margin-bottom:34px;
+        width:535px;
 }
     .pre-search{
         display: inline-block;
@@ -70,9 +70,16 @@
         margin: auto;
 
     }
+    .advanced_search{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .advanced_search_headline{
+
+    }
+
 
     .post-search{
-	margin-top= -38px;
+	margin-top:-38px;
 }
     .small{
         margin-top:-416px;
@@ -86,17 +93,48 @@
 
 <head>
 <div class="engProj pre-search" id="searchEngine"> 
-<h2 class="title_pre-search"> Find Me A Patenet</h2> 
+<h2 class="title_pre-search"> Find Me A Patent</h2>
 <br>
 <body>
 
     <div class="searchDirective">
         <form action="" method="get">
-            <input class="searchBox" id="query" name="query" type="text" placeholder="Search...">
-            <input id="search-button" type="submit" class="buttonClass" value="Search" onclick="changeDisplay()">
+            <input class="searchBox" id="regular_search" name="regular_search" type="text" placeholder="Search...">
+            <input id="search-button" type="submit" class="buttonClass" value="Search" >
+            <input type="submit" class="buttonClass" value="Advanced search"
+                   onclick="show_advanced()">
+            <div class="advanced_search" id="advanced_search">
+                <div class="advances_search_purpose">
+                    <h2 class="advanced_search_headline">Purpose</h2>
+                    <p>
+                        <label for="purpose_is">Patent purpose is</label>
+                        <input class="searchBox" id="purpose_is" name="purpose_is"
+                               type="text" placeholder="Patent purpose is...">
+                    </p>
+                    <p>
+                        <label for="purpose_is_not">Patent purpose is not</label>
+                        <input class="searchBox"  id="purpose_is_not"
+                               name="purpose_is_not"
+                               type="text" placeholder="Patent purpose is not...">
+                </div>
+                </p>
+                <div class="advances_search_mechanics">
+                    <h2 class="advanced_search_headline">Mechanics</h2>
+                    <p>
+                        <label for="mechanics_is">Patent mechanics is</label>
+                        <input class="searchBox" id="mechanics_is" name="mechanics_is"
+                               type="text" placeholder="Patent mechanics is...">
+                    </p>
+                    <p>
+                        <label for="mechanics_is_not">Patent mechanics is not</label>
+                        <input class="searchBox" id="mechanics_is_not" name="mechanics_is_not"
+                               type="text" placeholder="Patent mechanics is not...">
+                    </p>
+                </div>
+            </div>
         </form>
 
-{#        {% if result %}#}
+        {% if result %}
         <div class="results-container" id="results-container">
             <p class="result-counter"> About {{result|length}} results </p>
             {% for doc in result %}
@@ -114,7 +152,7 @@
 
             {% endfor %}
         </div>
-{#        {% endif %}#}
+        {% endif %}
 
     </div>
 <script type="text/javascript">
@@ -124,7 +162,7 @@
             if(search) {
                 $("#searchEngine").removeClass('pre-search');
                 $("#searchEngine").addClass('post-search');
-                $("#query").addClass('search-box_post-search');
+                $("#regular_search").addClass('search-box_post-search');
             }
         }
     /*Get search string from the website and parse it*/
@@ -142,8 +180,13 @@
     function changeDisplay(){
         $("#searchEngine").removeClass('pre-search');
         $("#searchEngine").addClass('post-search');
-        $("#query").addClass('search-box_post-search');
+        $("#regular_search").addClass('search-box_post-search');
         localStorage.setItem("search",true)
+
+    function show_advanced(){
+        $("#advanced_search").style.display ='block';
+
+    }
 
          {#document.getElementById('results-container').style.display = 'block';#}
         {#deded#}

@@ -56,7 +56,7 @@ class IndexFiles:
             print("\rProcessed {}/{} patents in file".format(0, len(patents)), end='', flush=True)
             for j, patent in enumerate(patents, 1):
 
-                pid, date, title, author, icn, org, acn, abstract, description, uid = patent
+                pid, date, title, author, icn, org, acn, abstract, description, purpose, mechanics, uid = patent
 
                 try:
                     doc = Document()
@@ -69,6 +69,8 @@ class IndexFiles:
                     doc.add(Field('acn', acn, self._ft1))
                     doc.add(Field('abstract', abstract, self._ft2))
                     doc.add(Field('description', description, self._ft2))
+                    doc.add(Field('purpose', description, self._ft2))
+                    doc.add(Field('mechanics', description, self._ft2))
                     doc.add(Field('uid', uid, self._ft1))
 
                     self._writer.addDocument(doc)

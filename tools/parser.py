@@ -7,7 +7,7 @@ import re
 PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/finalproject/tools/patent_db/xml_db_files"
 HEADER = [
     'id', 'date', 'patent title', 'author-name', 'ICN', 'organization-name',
-    'ACN', 'patent abstract', 'patent description', 'uid'
+    'ACN', 'patent abstract', 'patent description', 'patent purpose', 'patent mechanics', 'uid'
 ]
 
 DATA_FORM_ID = re.compile(r'([A-Z]*)(\d+)')
@@ -207,6 +207,8 @@ def parse_file(file):
     result, fields_dict = etree.fromstring(file, parser)
     match_letters = DATA_FORM_ID.match(fields_dict['id'])
     fields_dict['uid'] = fields_dict['ICN'] + match_letters.group(1) + match_letters.group(2)[1:]
+    fields_dict['patent purpose'] = " " # TODO need Dafna's tool
+    fields_dict['patent mechanics'] = " " # TODO need Dafna's tool
 
     return fields_dict
 

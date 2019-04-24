@@ -10,7 +10,24 @@ searcher = SearchIndex('../tools/patent.index/')
 
 def index(request):
 
-    query = request.GET.get('query', None)
+    regular_search = request.GET.get('regular_search', None)
+    purpose_is = request.GET.get('purpose_is', None)
+    purpose_is_not = request.GET.get('purpose_is_not', None)
+    mechanics_is = request.GET.get('mechanics_is', None)
+    mechanics_is_not = request.GET.get('mechanics_is_not', None)
+
+    search_params = {'general_query': regular_search,
+                     'purpose_is' : purpose_is,
+                     'purpose_is_not': purpose_is_not,
+                     'mechanics_is': mechanics_is,
+                     'mechanics_is_not': mechanics_is_not}
+    query={}
+    for param in search_params:
+        if search_params[param]:
+            query[param] = search_params[param]
+        else:
+            query[param] = None
+
 
     if not query:
         return render(request, 'search.html', {})
