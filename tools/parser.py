@@ -4,7 +4,7 @@ from lxml import etree
 import os
 import re
 
-PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/finalproject/tools/patent_db/xml_db_files"
+PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/final_project/finalproject/tools/patent_db/xml_db_files"
 HEADER = [
     'id', 'date', 'patent title', 'author-name', 'ICN', 'organization-name',
     'ACN', 'patent abstract', 'patent description', 'patent purpose', 'patent mechanics', 'uid'
@@ -200,34 +200,81 @@ def create_fields(result, file_name):
     return result
 
 
+def add_fields(fields_dict):
+    country_initial = ""
+
+    try:
+        if fields_dict["ICN"] == "US":
+            country_initial = fields_dict['ICN']
+        else:
+            return None
+    except:
+        print("\n fields_dict do not contain ICN")
+        try:
+            if fields_dict["ACN"] == "US":
+                country_initial = fields_dict['ACN']
+            else:
+                return None
+        except:
+            print("\n fields_dict do not contain ACN")
+            return None
+
+    match_letters = DATA_FORM_ID.match(fields_dict['id'])
+    fields_dict['uid'] = country_initial + match_letters.group(1) + match_letters.group(2)[1:]
+    fields_dict['patent purpose'] = " " # TODO need Dafna's tool
+    fields_dict['patent mechanics'] = " " # TODO need Dafna's tool
+
+    if fields_dict['uid'] == "US8925238":
+        fields_dict['patent purpose'] = "Improve aiming, Improve shooting, Add an aiming device to a gun"
+        fields_dict['patent mechanics'] = "lens, metal ring"
+
+    if fields_dict['uid'] == "US8925167":
+        fields_dict['patent purpose'] = "allows a user to repair a faucet without causing damage to the faucet's handle or stem"
+        fields_dict['patent mechanics'] = "screw, bottom wall"
+
+    if fields_dict['uid'] == "US8925191":
+        fields_dict['patent purpose'] = "stimulation lead comprising a plurality of segmented electrodes for stimulation of tissue of a patient"
+        fields_dict['patent mechanics'] = "segmented electrodes"
+
+    if fields_dict['uid'] == "US9533203":
+        fields_dict['patent purpose'] = "A golf grip composed of multiple rubber compound layers producing properties " \
+                                        "within the golf grip to promote vibration transmission"
+        fields_dict['patent mechanics'] = "rubber  ,compression molding process"
+
+    if fields_dict['uid'] == "US9540118":
+        fields_dict['patent purpose'] = "A computer-implemented method of evaluating aircraft flight risk"
+        fields_dict['patent mechanics'] = "computer-implemented method, algorithm "
+
+    if fields_dict['uid'] == "US9536411":
+        fields_dict['patent purpose'] = "identifying biometric markers within a vehicle"
+        fields_dict['patent mechanics'] = "computer method, algorithm"
+
+    return fields_dict
+
+
 def parse_file(file):
 
     file = file.encode('utf-8')
     parser = etree.XMLParser(target=SimpleXMLHandler(), resolve_entities=False)
     result, fields_dict = etree.fromstring(file, parser)
-    match_letters = DATA_FORM_ID.match(fields_dict['id'])
-    fields_dict['uid'] = fields_dict['ICN'] + match_letters.group(1) + match_letters.group(2)[1:]
-    fields_dict['patent purpose'] = " " # TODO need Dafna's tool
-    fields_dict['patent mechanics'] = " " # TODO need Dafna's tool
+
+    fields_dict = add_fields(fields_dict)
 
     return fields_dict
 
 
-def write_to_csv(all_files, csv_name, start):
+
+def write_to_csv(all_files, csv_name, start, i):
     csv_file_name = csv_name + str(start) + ".csv"
     with open(csv_file_name, 'w', newline='', encoding='utf8') as fs:
         writer = csv.writer(fs)
         for file in all_files:
             fields_dict = parse_file(file)
-            try:
-                if fields_dict["ICN"] != "US" or fields_dict["ACN"] != "US":
-                    continue
-            except:
-                print("\n fields_dict do not contain ICN or ACN")
-
-            row = [fields_dict[k] if k in fields_dict else '' for k in HEADER]
-            writer.writerow(row)
-
+            if fields_dict is not None:
+                row = [fields_dict[k] if k in fields_dict else '' for k in HEADER]
+                i += 1
+                writer.writerow(row)
+    return i
 
 def check_patent(buffer):
     counter = 0
@@ -239,7 +286,7 @@ def check_patent(buffer):
     return True
 
 
-def read_file(name, folder_in, start = 0):
+def read_file(name, folder_in, start = 0, count_patent_numbers = 0):
     file_name = folder_in + '/' + name
     buffer = []
     all_files = []
@@ -259,7 +306,8 @@ def read_file(name, folder_in, start = 0):
 
                     # to create a new csv every 1000 patents
                     if len(all_files) == 1000:
-                        write_to_csv(all_files, "patent_db/csv_db/output", start)
+                        count_patent_numbers = write_to_csv(all_files, "patent_db/csv_db/output",
+                                                          start, count_patent_numbers)
                         all_files = []
                         start += 1
                         i = 0
@@ -268,19 +316,25 @@ def read_file(name, folder_in, start = 0):
 
         # in case of the lasts patents in the file
         if len(all_files) < 1000:
-            write_to_csv(all_files, "patent_db/csv_db/output", start)
+            count_patent_numbers = write_to_csv(all_files, "patent_db/csv_db/output", start, count_patent_numbers)
             start += 1
 
-    return start
+    return start, count_patent_numbers
 
 
 def main():
     folder_in = PATH
     start = 0
+    count_patent_numbers = 0
     for filename in os.listdir(folder_in):
         print("====== file name " + str(filename))
-        start = read_file(filename, folder_in, start)
+        start, count_patent_numbers = read_file(filename, folder_in, start, count_patent_numbers)
 
+        ######
+        print("file name is: ", str(filename))
+        print("number of csv for this file = ", str(start))
+        print("total patents = ", str(count_patent_numbers))
+        ######
 
 def usage():
     print(main.__doc__)
@@ -288,3 +342,118 @@ def usage():
 
 if __name__ == "__main__":
     main()
+
+
+
+# def parse_file(file):
+#
+#     file = file.encode('utf-8')
+#     parser = etree.XMLParser(target=SimpleXMLHandler(), resolve_entities=False)
+#     result, fields_dict = etree.fromstring(file, parser)
+#     match_letters = DATA_FORM_ID.match(fields_dict['id'])
+#     fields_dict['uid'] = fields_dict['ICN'] + match_letters.group(1) + match_letters.group(2)[1:]
+#     fields_dict['patent purpose'] = " " # TODO need Dafna's tool
+#     fields_dict['patent mechanics'] = " " # TODO need Dafna's tool
+#
+#     if fields_dict['uid'] == "US8925238":
+#         fields_dict['patent purpose'] = "Improve aiming, Improve shooting, Add an aiming device to a gun"
+#         fields_dict['patent mechanics'] = "lens, metal ring"
+#
+#     if fields_dict['uid'] == "US8925167":
+#         fields_dict['patent purpose'] = "allows a user to repair a faucet without causing damage to the faucet's handle or stem"
+#         fields_dict['patent mechanics'] = "screw, bottom wall"
+#
+#     if fields_dict['uid'] == "US8925191":
+#         fields_dict['patent purpose'] = "stimulation lead comprising a plurality of segmented electrodes for stimulation of tissue of a patient"
+#         fields_dict['patent mechanics'] = "segmented electrodes"
+#
+#     if fields_dict['uid'] == "US9533203":
+#         fields_dict['patent purpose'] = "A golf grip composed of multiple rubber compound layers producing properties " \
+#                                         "within the golf grip to promote vibration transmission"
+#         fields_dict['patent mechanics'] = "rubber  ,compression molding process"
+#
+#     if fields_dict['uid'] == "US9540118":
+#         fields_dict['patent purpose'] = "A computer-implemented method of evaluating aircraft flight risk"
+#         fields_dict['patent mechanics'] = "computer-implemented method, algorithm "
+#
+#     if fields_dict['uid'] == "US9536411":
+#         fields_dict['patent purpose'] = "identifying biometric markers within a vehicle"
+#         fields_dict['patent mechanics'] = "computer method, algorithm"
+#
+#     return fields_dict
+
+# def write_to_csv(all_files, csv_name, start):
+#     csv_file_name = csv_name + str(start) + ".csv"
+#     with open(csv_file_name, 'w', newline='', encoding='utf8') as fs:
+#         writer = csv.writer(fs)
+#         for file in all_files:
+#             fields_dict = parse_file(file)
+#             try:
+#                 if fields_dict["ICN"] != "US" or fields_dict["ACN"] != "US":
+#                     continue
+#             except:
+#                 print("\n fields_dict do not contain ICN or ACN")
+#
+#             row = [fields_dict[k] if k in fields_dict else '' for k in HEADER]
+#             writer.writerow(row)
+
+
+# def check_patent(buffer):
+#     counter = 0
+#     for line in buffer:
+#         if line.startswith('<?xml version="1.0" encoding="UTF-8"?>'):
+#             counter += 1
+#             if counter > 1:
+#                 return False
+#     return True
+#
+#
+# def read_file(name, folder_in, start = 0):
+#     file_name = folder_in + '/' + name
+#     buffer = []
+#     all_files = []
+#     i = 0
+#
+#     print("\nReading large file...")
+#     print("\rProcessed {} entries".format(0), end='', flush=True)
+#
+#     with open(file_name, 'r') as file:
+#         for line in file:
+#             buffer.append(line)
+#             if '</us-patent-grant>' in line:
+#                 if check_patent(buffer):
+#                     new_xml = ''.join(buffer)
+#                     all_files.append(new_xml)
+#                     i += 1
+#
+#                     # to create a new csv every 1000 patents
+#                     if len(all_files) == 1000:
+#                         write_to_csv(all_files, "patent_db/csv_db/output", start)
+#                         all_files = []
+#                         start += 1
+#                         i = 0
+#                 buffer = []
+#             print("\rProcessed {} entries".format(i), end='', flush=True)
+#
+#         # in case of the lasts patents in the file
+#         if len(all_files) < 1000:
+#             write_to_csv(all_files, "patent_db/csv_db/output", start)
+#             start += 1
+#
+#     return start
+#
+#
+# def main():
+#     folder_in = PATH
+#     start = 0
+#     for filename in os.listdir(folder_in):
+#         print("====== file name " + str(filename))
+#         start = read_file(filename, folder_in, start)
+#
+#
+# def usage():
+#     print(main.__doc__)
+#
+#
+# if __name__ == "__main__":
+#     main()

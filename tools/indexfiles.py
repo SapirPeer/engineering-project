@@ -53,6 +53,8 @@ class IndexFiles:
             print("\nProcessing CSV #{}".format(i), flush=True)
 
             patents = self._read_csv(csvs_path + "/" + csv_file)
+            if patents is None:
+                continue
             print("\rProcessed {}/{} patents in file".format(0, len(patents)), end='', flush=True)
             for j, patent in enumerate(patents, 1):
 
@@ -76,19 +78,23 @@ class IndexFiles:
                     self._writer.addDocument(doc)
 
                 except Exception as e:
-                    print("\nFailed to index '{}': {}\n".format(path, e))
+                    print("\nFailed to index '{}': {}\n".format(csvs_path, e))
                 print("\rProcessed {}/{} patents in file".format(j, len(patents)), end='', flush=True)
             print()
         self._commit()
         return self
 
     def _read_csv(self, path):
+        
+        try:
+            with open(path, 'rU', newline='') as fs:
+                reader = csv.reader(x.replace('\0', '') for x in fs)
+                rows = [r for r in reader]
 
-        with open(path, 'rU', newline='') as fs:
-            reader = csv.reader(x.replace('\0', '') for x in fs)
-            rows = [r for r in reader]
-
-        return rows
+            return rows
+        except Exception as e:
+            print("\nError reading file '{}' : {} \n".format(path, e))
+            return None
 
     def _commit(self):
 
