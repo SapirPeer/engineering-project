@@ -36,7 +36,8 @@ class Word2Vec:
 
         words = words.split(" ")
         for word in words:
-            similar_words.extend(self.sg_model.most_similar(positive=word))
+            if len(word) > 1:
+                similar_words.extend(self.sg_model.most_similar(positive=word))
 
         for similar_word in similar_words:
             similar_words_str += similar_word[0] + " "
@@ -82,11 +83,13 @@ class SearchIndex:
 
         if general_query:
             query_description = QueryParser('description', self._analyzer).parse(general_query)
+            query_abstract = QueryParser('abstract', self._analyzer).parse(general_query)
             query_title = QueryParser('title', self._analyzer).parse(general_query)
             # query_id = QueryParser('uid', self._analyzer).parse(query)
             query_id = TermQuery(Term('uid', general_query))
 
             bool_query.add(query_description, BooleanClause.Occur.SHOULD)
+            bool_query.add(query_abstract, BooleanClause.Occur.SHOULD)
             bool_query.add(query_title, BooleanClause.Occur.SHOULD)
             bool_query.add(query_id, BooleanClause.Occur.SHOULD)
 

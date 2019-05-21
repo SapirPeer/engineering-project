@@ -129,7 +129,8 @@ class Word2Vec:
         similar_words_str = ""
 
         for word in words:
-            similar_words.extend(self.sg_model.most_similar(positive=word))
+            if len(word) > 1:
+                similar_words.extend(self.sg_model.most_similar(positive=word))
 
         for similar_word in similar_words:
             similar_words_str += similar_word[0] + " "
