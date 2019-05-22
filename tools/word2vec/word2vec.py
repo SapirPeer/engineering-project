@@ -128,6 +128,7 @@ class Word2Vec:
         similar_words = []
         similar_words_str = ""
 
+        words = [x.strip(",") for x in words[0].split(" ")]
         for word in words:
             if len(word) > 1:
                 similar_words.extend(self.sg_model.most_similar(positive=word))
@@ -139,12 +140,15 @@ class Word2Vec:
 
 if __name__ == '__main__':
     model = Word2Vec(None)
-    model = Word2Vec(["system"])
+    model = Word2Vec(["system, energy, dog "])
     print(model.words)
 
-    model = Word2Vec(["energy"])
+    model = Word2Vec(["system to protect my dog, energy "])
     print(model.words)
 
-    model = Word2Vec(["dog"])
-    print(model.words)
+    # model = Word2Vec(["energy"])
+    # print(model.words)
+    #
+    # model = Word2Vec(["dog"])
+    # print(model.words)
 
