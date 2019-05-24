@@ -15,36 +15,6 @@
     h3 {
     color: purple;
 }
-    {##}
-    {#.searchBox{#}
-    {#    -moz-box-sizing: border-box;#}
-    {#    -webkit-box-sizing: border-box;#}
-    {#    box-sizing: border-box;#}
-    {#    background: #fcfcfc;#}
-    {#    border: solid 1px #E9E9E8;#}
-    {#    padding: 8px;#}
-    {#    -webkit-border-radius: 5px;#}
-    {#    -moz-border-radius: 5px;#}
-    {#    border-radius: 5px;#}
-    {#    font-size: 14px;#}
-    {#    width:350px;#}
-    {##}
-    {#}#}
-
-    {#.buttonClass{#}
-    {#    color: #FFFFFF;#}
-    {#    text-decoration: underline;#}
-    {#    /*margin-right: 9px;*/#}
-    {#    cursor: pointer;#}
-    {#    text-transform: none;#}
-    {#    background-color: #199619;#}
-    {#    border: none;#}
-    {#    box-shadow: none;#}
-    {#    border-radius:5px;#}
-    {#    width: 60px;#}
-    {#    padding: 9px;#}
-    {##}
-    {#}#}
 
 
     .title_pre-search {
@@ -101,6 +71,7 @@
         border: none;
         border-radius: 5px;
         width: 53%;
+        margin-bottom: 7px;
     }
     .short{
         width: 307px;
@@ -115,21 +86,16 @@
 
     .pre-search{
         display: inline-block;
-        position: fixed;
         top: 0;
         bottom: 28%;
         left: 37%;
         right: 30%;
-        width: 100%;
         height: 100px;
         margin: auto;
 
     }
     .advanced_search{
         font-family: 'Roboto Condensed', sans-serif;
-    }
-    .advanced_search_headline{
-
     }
     .post-search {
         margin-top: -47px;
@@ -154,7 +120,7 @@
 
 
 <head>
-<div class="engProj pre-search" id="searchEngine"> 
+<div class="engProj pre-search" id="searchEngine">
 <h2 class="title_pre-search"> Find Me A Patent</h2>
 <br>
 <body>
@@ -219,45 +185,43 @@
 
     </div>
 <script type="text/javascript">
-
         window.onload = function () {
-            let search = localStorage.getItem('search');
-            document.getElementById("advanced_search").addEventListener("click",function(){
-                document.getElementById("advanced_search_div").style.display="block";
+            let show = localStorage.getItem('show');
+            let search = localStorage.getItem("search");
+            document.getElementById("advanced_search").addEventListener("click", function () {
+                document.getElementById("advanced_search_div").style.display = "block";
+                localStorage.setItem("show", true);
 
-            })
-            document.getElementById("regular_search").addEventListener("click",function(){
-                document.getElementById("search_content").style.width='118%;';
-                document.getElementById("search_content").style.left='220px;';
-            })
-            if(search) {
-                $("#searchEngine").removeClass('pre-search');
-                $("#searchEngine").addClass('post-search');
-                $("#regular_search").addClass('search-box_post-search');
+            });
+            if (search == 'true'){
+                document.getElementById("search_content").style.width = '118%';
+                document.getElementById("search_content").style.left = '220px'
             }
-        }
-    /*Get search string from the website and parse it*/
-    function getSearchString() {
-        var searchString = document.getElementById('searchInput').value;
-        //parse the search strign
-    }
+            document.getElementById("search-button").addEventListener("click", function () {
+                localStorage.setItem("show", false);
+                localStorage.setItem("search", true);
+                document.getElementById("advanced_search_div").style.display = "none"
+                document.getElementById("search_content").style.width = '118%';
+                document.getElementById("search_content").style.left = '220px';
+            });
 
-    $('#search-button').click(function(e){
-        console.log('naomi')
-        {#e.preventDefault();#}
-    // Code goes here
-});
+            if (show == 'true') {
+                document.getElementById("advanced_search_div").style.display = "block"
+            }
+            else if(show == 'false'){
+                document.getElementById("advanced_search_div").style.display = "none"
 
-    function changeDisplay(){
-        $("#searchEngine").removeClass('pre-search');
-        $("#searchEngine").addClass('post-search');
-        $("#regular_search").addClass('search-box_post-search');
-        localStorage.setItem("search",true)
+            }
+
+        };
+
+
+
 
     function showAdvanced(){
         $("#advanced_search").style.display ='block';
 
-    }
+    };
 
          {#document.getElementById('results-container').style.display = 'block';#}
         {#deded#}
@@ -268,7 +232,7 @@
 	    {#document.getElementById('searchEngine').remove.value= "post-search";#}
         {#document.getElementById('query').classList.add = "search-box_post-search";#}
 	    {#document.getElementById('results-container').style.display = 'block';#}
-}
+
 
 </script>
 
