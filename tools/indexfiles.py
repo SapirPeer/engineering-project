@@ -8,7 +8,7 @@ import lucene
 from java.nio.file import Paths
 from org.apache.lucene.analysis.miscellaneous import LimitTokenCountAnalyzer
 from org.apache.lucene.analysis.standard import StandardAnalyzer
-from org.apache.lucene.document import Document, Field, FieldType
+from org.apache.lucene.document import Document, Field, FieldType, StringField
 from org.apache.lucene.index import FieldInfo, IndexWriter, IndexWriterConfig, IndexOptions
 from org.apache.lucene.store import SimpleFSDirectory
 
@@ -64,15 +64,15 @@ class IndexFiles:
                     doc = Document()
                     doc.add(Field('id', pid, self._ft1))
                     doc.add(Field('date', date, self._ft1))
-                    doc.add(Field('title', title, self._ft1))
+                    doc.add(Field('title', title, self._ft2))
                     doc.add(Field('author', author, self._ft1))
                     doc.add(Field('icn', icn, self._ft1))
                     doc.add(Field('organization', org, self._ft1))
                     doc.add(Field('acn', acn, self._ft1))
                     doc.add(Field('abstract', abstract, self._ft2))
                     doc.add(Field('description', description, self._ft2))
-                    doc.add(Field('purpose', description, self._ft2))
-                    doc.add(Field('mechanics', description, self._ft2))
+                    doc.add(Field('purpose', purpose, self._ft2))
+                    doc.add(Field('mechanics', mechanics, self._ft2))
                     doc.add(Field('uid', uid, self._ft1))
 
                     self._writer.addDocument(doc)
@@ -124,9 +124,13 @@ class IndexFiles:
         self._ft1.setStored(True)
         self._ft1.setTokenized(False)
         self._ft1.setIndexOptions(IndexOptions.DOCS_AND_FREQS)
+
         self._ft2 = FieldType()
         self._ft2.setStored(True)
         self._ft2.setTokenized(True)
+        self._ft1.setStoreTermVectors(True)
+        self._ft1.setStoreTermVectorOffsets(True)
+        self._ft1.setStoreTermVectorPositions(True)
         self._ft2.setIndexOptions(IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
 
 
