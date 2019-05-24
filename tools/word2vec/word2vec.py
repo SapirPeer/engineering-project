@@ -2,12 +2,18 @@ import csv
 import os
 import sys
 
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+
 import gensim
 
 # CSV_PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/finalproject/tools/patent_db/csv_db"
 # CSV_PATH = "/home/naomi/final_project/finalproject/tools/patent_db/csv_db"
 
 CSV_PATH = "/mnt/d/Naomi/Desktop/Naomi/Final_Project/patent_db/test/test2"
+# CSV_PATH = "/cs/engproj/324/FinalProject/patent_db/test"
+STOP_WORDS = set(stopwords.words('english'))
+
 maxInt = sys.maxsize
 decrement = True
 
@@ -36,7 +42,6 @@ class PatentIterator:
         self._csv_patents = None
         # Index that holds which patent to return next
         self._csv_patent_index = 0
-
 
     def read_csv(self, path):
         # Reads csv file
@@ -74,14 +79,14 @@ class PatentIterator:
         patent = '\n'.join([title, abstract, description, purpose])
 
         patent = gensim.utils.simple_preprocess(patent, deacc=True, min_len=2, max_len=20)
-
+        filtered_patent = [word for word in patent if not word.lower() in STOP_WORDS]
 
         self._csv_patent_index += 1
         if self._csv_patent_index >= len(self._csv_patents):
             self._csv_patents = None
             self._csv_index += 1
 
-        return patent
+        return filtered_patent
 
 
     def __len__(self):
@@ -112,7 +117,6 @@ class Word2Vec:
         return sg_model
 
     def run(self):
-
         MODEL_PATH = "word2vec2.model"
         if os.path.exists(MODEL_PATH):
             model = gensim.models.Word2Vec.load(MODEL_PATH)
@@ -131,7 +135,10 @@ class Word2Vec:
         words = [x.strip(",") for x in words[0].split(" ")]
         for word in words:
             if len(word) > 1:
-                similar_words.extend(self.sg_model.most_similar(positive=word))
+                try:
+                    similar_words.extend(self.sg_model.most_similar(positive=word))
+                except:
+                    continue
 
         for similar_word in similar_words:
             similar_words_str += similar_word[0] + " "
@@ -142,6 +149,8 @@ if __name__ == '__main__':
     model = Word2Vec(None)
     model = Word2Vec(["system, energy, dog "])
     print(model.words)
+
+    print("=====")
 
     model = Word2Vec(["system to protect my dog, energy "])
     print(model.words)

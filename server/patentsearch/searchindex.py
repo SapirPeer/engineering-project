@@ -22,7 +22,8 @@ class Word2Vec:
     def run(self):
         model = None
         try:
-            model = gensim.models.Word2Vec.load("/home/naomi/final_project/finalproject/tools/word2vec/word2vec2.model")
+            # model = gensim.models.Word2Vec.load("/home/naomi/final_project/finalproject/tools/word2vec/word2vec2.model")
+            model = gensim.models.Word2Vec.load("/cs/engproj/324/FinalProject/finalproject/tools/word2vec/word2vec2.model")
         except Exception as e:
             print("ERROR: No model was found!")
             print(e)
@@ -34,18 +35,21 @@ class Word2Vec:
         similar_words = []
         similar_words_str = ""
 
-        words = words.split(" ")
+        # TODO make sure we always get array of size 1!!!
+        words = [x.strip(",") for x in words[0].split(" ")]
         for word in words:
             if len(word) > 1:
-                similar_words.extend(self.sg_model.most_similar(positive=word))
-
+                try:
+                    similar_words.extend(self.sg_model.most_similar(positive=word))
+                except:
+                    continue
         for similar_word in similar_words:
             similar_words_str += similar_word[0] + " "
 
         return similar_words_str
 
-class SearchIndex:
 
+class SearchIndex:
 
     def __init__(self, path, topn=DEF_TOPN):
 
@@ -59,7 +63,6 @@ class SearchIndex:
         self.purpose_is_not_w2v = None
         self.mechanics_is_w2v = None
         self.mechanics_is_not_w2v = None
-
 
     def search(self, query, topn=None):
 
@@ -85,7 +88,6 @@ class SearchIndex:
             query_description = QueryParser('description', self._analyzer).parse(general_query)
             query_abstract = QueryParser('abstract', self._analyzer).parse(general_query)
             query_title = QueryParser('title', self._analyzer).parse(general_query)
-            # query_id = QueryParser('uid', self._analyzer).parse(query)
             query_id = TermQuery(Term('uid', general_query))
 
             bool_query.add(query_description, BooleanClause.Occur.SHOULD)
@@ -108,17 +110,6 @@ class SearchIndex:
         if mechanics_is_not:
             query_mechanics_is_not_w2v = QueryParser('mechanics', self._analyzer).parse(mechanics_is_not + self.mechanics_is_not_w2v)
             bool_query.add(query_mechanics_is_not_w2v, BooleanClause.Occur.MUST_NOT)
-
-
-        # bool_query = BooleanQuery.Builder()
-        # bool_query.add(query_description, BooleanClause.Occur.SHOULD)
-        # bool_query.add(query_title, BooleanClause.Occur.SHOULD)
-        # bool_query.add(query_id, BooleanClause.Occur.SHOULD)
-        #
-        # bool_query.add(query_purpose_is_w2v, BooleanClause.Occur.SHOULD)
-        # bool_query.add(query_purpose_is_not_w2v, BooleanClause.Occur.MUST_NOT) # MAYBE NEED TO BE BooleanClause.Occur.SHOULD
-        # bool_query.add(query_mechanics_is_w2v, BooleanClause.Occur.SHOULD)
-        # bool_query.add(query_mechanics_is_not_w2v, BooleanClause.Occur.MUST_NOT)
 
         docs = self._searcher.search(bool_query.build(), topn).scoreDocs
 
